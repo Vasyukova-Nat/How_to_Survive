@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<!-- CSS -->
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+
+
+<body>
+
+
+
+<div class="top_page">
+    <h1 class="header__logo">Название сайта</h1>
+</div>
+
+
+<div class="bottom_page">
+    <div class="section1" id="section1">
+        <button class="section1__btn">
+            <span>Раздел 1</span>
+        </button>
+        
+        <!-- Разворачивающийся блок 1 -->
+        <ul class="section1__list hide"> 
+        
+        <h2 class="section1_name"> 
+            Первый раздел. </h2>
+        </ul>
+
+            <script> 
+            // Скрипт для раскрытия блока 
+            const section1Btn = document.querySelector(".section1__btn");
+            const section1List = document.querySelector(".section1__list");
+
+            function section1Visibility() {
+                section1List.classList.toggle("hide");}
+                section1Btn.addEventListener("click", section1Visibility);
+            </script>
+       
+    </div>
+    
+
+        <br>  <!-- отступ -->
+        <button class="section2__btn">
+            <span>Раздел 2</span>
+
+        </button>
+
+
+
+</div>
+
+<!-- Js 
+<script src="Код проекта.js"></script> -->
+
+</body>
+</html>
