@@ -1,20 +1,49 @@
-/*   */
+/* */
 body 
     .hide {
     display: none !important;
     }
     .container {
-    position: relative;
-    left: 15px;
-    width: 1095px;
+        position: relative;
+        left: 15px;
+        width: 1095px;
+        }
+    
+    
+    .header {
+        height: 100px;
     }
 
-    
     .header__logo {
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #0f0f0f;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #0f0f0f;
     }
+
+    .logotype { 
+        position: relative;
+        width: 150px;    
+        float: left; 
+         
+    }
+
+    .logotype_info {
+        position: relative;
+    }    
+
+
+
+    .footer {
+        position: absolute; 
+        /*  position: fixed; */
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+        clear: both;  /* запрещено обтекание */
+    }
+
+     
 

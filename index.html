@@ -1,5 +1,9 @@
+<!--  -->
+
 <!DOCTYPE html>
 <html>
+<meta charset="utf-8">
+<title>How to Survive</title>
 
 <!-- CSS -->
 <head>
@@ -7,13 +11,16 @@
 </head>
 
 
+
 <body>
-
-
-
-<div class="top_page">
+ 
+<div class="header">  <!-- Шапка сайта -->
     <h1 class="header__logo">Название сайта</h1>
+    <img class="logotype" src="C:\Users\lucky\Desktop\How to Survive\Photo\logo.png" />
+    <span class="logotype_info">Сайт помощи людям.<br />Информация о сайте.</span>
 </div>
+
+
 
 
 <div class="bottom_page">
@@ -25,12 +32,18 @@
         <!-- Разворачивающийся блок 1 -->
         <ul class="section1__list hide"> 
         
-        <h2 class="section1_name"> 
-            Первый раздел. </h2>
+        <h4 class="section1_name"> Раздел 1. Информация. </h4>
+        <li class="Theme1"><a href="" id="chapter_1">Тема 1</a> </li>
+        <li class="Theme2"><a href="" id="chapter_2"> Тема 2</a></li>
+        <li class='Theme3'><a href=".html">Тема 3</a></li>
+
+        <p style="font-size: 15px;">
+            <a href="Page_about">Доп информация</a></p>
+
         </ul>
 
             <script> 
-            // Скрипт для раскрытия блока 
+            // Скрипт для раскрытия блока section1
             const section1Btn = document.querySelector(".section1__btn");
             const section1List = document.querySelector(".section1__list");
 
@@ -49,7 +62,14 @@
         </button>
 
 
+</div>
 
+<div class="footer">  <!-- Полоска внизу сайта -->
+    <p style="font-size: 15px;"> 
+    <a href="help" class="link">Помощь </a>
+    <a href="contacts" class="link">Контакты</a>
+    <a href="offers" class="link">Вопросы и предложения</a>
+    </p>
 </div>
 
 <!-- Js 
