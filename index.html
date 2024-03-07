@@ -6,23 +6,104 @@
     <link rel="stylesheet" type="text/css" href="style.css"> 
 </head>
 
-
 <body>
 
+	<!-- Начало Шапки -->
+<header class="mainheader">
+	
+	<div class="container">
+	
+	<div class="top_page">
+		<h1 class="header_logo">How To Survive</h1>
+	</div>
+	
+	<nav class="mainnav">
+		<ul>
+			<li id="txLink" class="active"><a href="#">Прочитать статью</a></li>
+			<li id="tsLink"><a href="#">Пройти тест</a></li>
+		</ul>
+	</nav>
+	
+	<div class="void"> </div>
+	
+	</div>
+	
+	<div class="container_menu">
+		<div class="header_menu menu">
+			<button class="menu_btn">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+				<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0
+1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1
+.5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+				</svg>
+			</button>
 
+			<ul class="menu_list hide">
+				<li class="menu_item">
+					<a href="#" class="menu_link"> Раздел_1 </a>
+				</li>
+				<li class="menu_item">
+					<a href="#" class="menu_link"> Раздел_2 </a>
+				</li>
+			</ul>
+		
+		</div>
+	</div>
+	
+</header>
+	<!-- Конец Шапки -->
 
-<div class="top_page">
-    <h1 class="header__logo">Название сайта</h1>
-</div>
+	<div id="progressContainer">
+		<div id="progressValue"></div>
+	</div>
 
+<main>
+	<div class="container">
+	
+		<!-- Раздел статьи с информацией -->
+		<section id="tx">
+			<center><h2>Название</h2></center>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat lobortis velit non dapibus. Proin tellus purus, accumsan vel gravida ac, molestie vitae lacus. Integer sit amet purus velit. Aenean sit amet lacinia ex, vitae porttitor nisl. Nam efficitur enim metus, aliquam rhoncus lectus condimentum ut. Maecenas non lobortis magna. Curabitur pellentesque, magna eget tempor aliquam, sem nibh venenatis tellus, sed mollis purus metus a diam. Aliquam rutrum condimentum ultrices. Vivamus et varius orci, vitae iaculis sapien. Nulla maximus turpis non nibh tincidunt, vitae dignissim tortor lobortis. Ut euismod augue non tincidunt tincidunt.
+			</p>
+			<p>
+				Cras id nulla arcu. Duis a sagittis felis, sit amet lacinia urna. Suspendisse potenti. Nullam malesuada laoreet dictum. Integer aliquam nulla dui, ac consequat lorem fermentum vel. Nulla leo sem, elementum vitae arcu eu, blandit sodales mauris. Vivamus eget lorem ac risus lobortis sodales. Nam porta leo vitae placerat tincidunt.
+			</p>
+			<p>
+				Duis tincidunt, diam nec aliquet posuere, erat leo condimentum enim, ut tempus leo dolor sodales ligula. Donec maximus augue quis libero sollicitudin, vel ultrices lacus accumsan. Suspendisse interdum dapibus ligula eget sollicitudin. Vivamus non urna justo. Phasellus vulputate malesuada molestie. Pellentesque quis urna quis nisl tempor molestie ac a est. Suspendisse a urna lorem. Sed interdum dictum consectetur. Fusce dapibus sem sit amet mi efficitur, sit amet eleifend lorem fringilla. Phasellus pellentesque, libero sed cursus posuere, lacus nunc malesuada sem, at aliquet tortor felis id ligula. Proin molestie, sem eget condimentum tempus, tellus nulla sodales mauris, et efficitur nunc arcu ut massa. Sed nec porta libero.
+			</p>
+			<p>
+				Donec semper ipsum non accumsan laoreet. Nulla ultricies, leo mollis mattis euismod, metus tellus dictum lectus, et commodo orci tortor a justo. Aenean at gravida ante. Etiam convallis dapibus sem, quis luctus dui iaculis sed. Mauris nec orci ligula. Curabitur ut tortor quis ipsum tincidunt consectetur feugiat a arcu. Duis at dictum libero, in posuere justo.
+			</p>
+			<p>
+				Donec ut urna pellentesque, accumsan mauris a, fringilla mauris. Donec ut nibh vel enim scelerisque placerat. Ut eu hendrerit orci. Phasellus pellentesque feugiat lacus, quis pellentesque tortor scelerisque sed. Proin suscipit neque venenatis, faucibus leo sed, varius erat. Curabitur eget libero commodo, interdum sapien sed, eleifend dui. Sed ac rutrum ligula. Aenean ut lorem tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse et mauris a risus posuere aliquam. Proin non urna pulvinar turpis vulputate mattis eget non nunc. Cras vel lectus velit.
+			</p>
+		</section>
+		
+		<!-- Раздел теста -->
+		<section id="ts">
+			<center><h2>Тест по теме: Название</h2></center>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat lobortis velit non dapibus. Proin tellus purus, accumsan vel gravida ac, molestie vitae lacus. Integer sit amet purus velit. Aenean sit amet lacinia ex, vitae porttitor nisl. Nam efficitur enim metus, aliquam rhoncus lectus condimentum ut. Maecenas non lobortis magna. Curabitur pellentesque, magna eget tempor aliquam, sem nibh venenatis tellus, sed mollis purus metus a diam. Aliquam rutrum condimentum ultrices. Vivamus et varius orci, vitae iaculis sapien. Nulla maximus turpis non nibh tincidunt, vitae dignissim tortor lobortis. Ut euismod augue non tincidunt tincidunt.
+			</p>
+			<p>
+				Cras id nulla arcu. Duis a sagittis felis, sit amet lacinia urna. Suspendisse potenti. Nullam malesuada laoreet dictum. Integer aliquam nulla dui, ac consequat lorem fermentum vel. Nulla leo sem, elementum vitae arcu eu, blandit sodales mauris. Vivamus eget lorem ac risus lobortis sodales. Nam porta leo vitae placerat tincidunt.
+			</p>
+			<p>
+				Duis tincidunt, diam nec aliquet posuere, erat leo condimentum enim, ut tempus leo dolor sodales ligula. Donec maximus augue quis libero sollicitudin, vel ultrices lacus accumsan. Suspendisse interdum dapibus ligula eget sollicitudin. Vivamus non urna justo. Phasellus vulputate malesuada molestie. Pellentesque quis urna quis nisl tempor molestie ac a est. Suspendisse a urna lorem. Sed interdum dictum consectetur. Fusce dapibus sem sit amet mi efficitur, sit amet eleifend lorem fringilla. Phasellus pellentesque, libero sed cursus posuere, lacus nunc malesuada sem, at aliquet tortor felis id ligula. Proin molestie, sem eget condimentum tempus, tellus nulla sodales mauris, et efficitur nunc arcu ut massa. Sed nec porta libero.
+			</p>
+		</section>
 
+	</div>
+
+<!--
 <div class="bottom_page">
     <div class="section1" id="section1">
         <button class="section1__btn">
             <span>Раздел 1</span>
         </button>
         
-        <!-- Разворачивающийся блок 1 -->
+        // Разворачивающийся блок 1
         <ul class="section1__list hide"> 
         
         <h2 class="section1_name"> 
@@ -42,15 +123,99 @@
     </div>
     
 
-        <br>  <!-- отступ -->
+        <br>  // отступ
         <button class="section2__btn">
             <span>Раздел 2</span>
 
         </button>
 
+</div> -->
 
+	<script>
+			"use strict";
+			
+			//Прогресс прокрутки
+			document.addEventListener('scroll', function(){
+				let maxScroll = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  
+				let curScroll = window.pageYOffset;
+  
+				let progress = curScroll / maxScroll * 100;
+  
+				document.querySelector('#progressValue').style.width = progress + '%';
+			})
+			
+			//Активный раздел
+			document.addEventListener('scroll', function(){
+				let winHeight = document.documentElement.clientHeight;
+				
+				let txLink = document.querySelector("#txLink");
+				let tsLink = document.querySelector("#tsLink");
+				
+				let tx = document.querySelector("#tx");
+				let ts = document.querySelector("#ts");
+  
+			//Статья
+				if(tx.getBoundingClientRect().bottom >= 120){
+					txLink.classList.add('active');
+					tsLink.classList.remove('active');
+				} else {
+			//Тест
+					txLink.classList.remove('active');
+					tsLink.classList.add('active');
+				}
+			});
+			
+			//Прокрутка
+			let txLink = document.querySelector("#txLink");
+			let tsLink = document.querySelector("#tsLink");
+				
+			let tx = document.querySelector("#tx");
+			let ts = document.querySelector("#ts");
+			
+			//Статья
+			txLink.addEventListener ("click", function(e) {
+				e.preventDefault();
+				
+				let txInt = setInterval(function(){
+					window.scrollBy(0, -30);
+					if (window.pageYOffset == 0) {
+						clearInterval(txInt);
+					}
+				}, 10);
+			});
+			
+			//Тест
+			tsLink.addEventListener ("click", function(e) {
+				e.preventDefault();
+				
+				if (tx.getBoundingClientRect().bottom > 119) {
+					let tsInt = setInterval(function(){
+						window.scrollBy(0, 30);
+						if (tx.getBoundingClientRect().bottom <= 119) {
+							clearInterval(tsInt);
+						}
+					}, 10);
+				} else {
+					let tsInt = setInterval(function(){
+						window.scrollBy(0, -30);
+						if (tx.getBoundingClientRect().bottom >= 100) {
+							clearInterval(tsInt);
+						}
+					}, 10);
+				}
+			});
+			
+			const menuBtn = document.querySelector(".menu_btn");
+			const menuList = document.querySelector(".menu_list");
 
-</div>
+			function toggleMenuVisibility() {
+				menuList.classList.toggle("hide");}
+
+			menuBtn.addEventListener("click", toggleMenuVisibility);
+	</script>
+
+</main>
 
 <!-- Js 
 <script src="Код проекта.js"></script> -->
