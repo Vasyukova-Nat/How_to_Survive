@@ -1,0 +1,41 @@
+.content {
+    border-radius: 3px;
+    /* background: rgba(255, 255, 255, 0.03); */
+    
+    padding: 20px;
+    
+
+}
+
+.content__header {
+    /* Заголовки статей и их фон */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600; /* насыщенность шрифта */
+    line-height: 24px; /* Высота вкладок */
+    background: rgba(0, 0, 0, 0.1);
+    /* color: #EDECFE */
+    
+    
+}
+
+
+.content__text {
+    /* Превью текста статей (под заголовком) */
+    /* color: rgba(255, 0, 0, 0.6);  */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    overflow: hidden;
+    
+    
+}
+
+.content__body {
+    /* Тоже превью текста статей */
+    display: flex;
+    gap: 10px;
+    
+}
+
