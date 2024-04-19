@@ -1,0 +1,97 @@
+.app {
+    display: block;
+    padding: 30px;
+    width: 100%;
+    /* margin-top: 10px; */
+    
+}
+
+.Str{
+    display: block;
+    width: 100%;
+}
+
+
+.preview{
+    /* background-color: lightblue; */
+    /* background-color: #E5EDEF; */
+    background: #F7F8F9;
+    height: 511px;
+    width: 1440px;
+    top: 80px;
+}
+
+.text-preview {
+    width: 428px;
+    height: 156px;
+    top: 212px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+    
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 38.73px;
+    text-align: center;
+        
+}
+
+
+.Block1{
+    display: flex;
+    margin-top: 60px;
+    /* width: 100%; */
+}
+
+.left-block1 {
+    flex: 1;
+
+    width: 728px;
+        height: 631px;
+        top: 931px;
+        left: -25px;
+        gap: 0px;
+        opacity: 0px;
+}
+
+.right-block1 {
+    flex: 2;
+    text-Align: center;
+    /* background-color: lightcoral; */
+}
+
+
+.Block2 {
+    display: flex;
+    margin-top: 60px;
+}
+
+.left-block2 {
+    flex: 1;
+    text-Align: center;
+}
+
+.right-block2 {
+    flex: 2;
+    /* width: 60px; */
+    
+    
+}
+
+
+.Block3 {
+    display: flex;
+    margin-top: 60px;
+}
+
+.left-block3 {
+    flex: 1;
+    
+}
+
+.right-block3 {
+    flex: 2;
+    text-Align: center;
+    width: 60px;
+
+}

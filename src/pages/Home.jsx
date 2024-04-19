@@ -1,90 +1,73 @@
 import "../App.css";
-// import Button from "./components/Button/Button";
-import Content from "../components/Content/Content";
-import CardButton from "../components/CardButton/CardButton";
+import "./Home.css";
+// import CardButton from "../components/CardButton/CardButton";
+import Button from "../components/Button/Button";
 import Header from "../components/Header/Header";
-import ContentList from "../components/ContentList/ContentList";
-import Body from "../layouts/Body/Body";
-import LeftPanel from "../layouts/LeftPanel/LeftPanel";
-import ArticleAddButton from "../components/ArticleAddButton/ArticleAddButton";
-
 import Footer from "../components/Footer/Footer";
-// import Draft from './components/Draft/Draft';
 
 import Carousel from "../components/Carousel/Carousel";
 const photos = ["/planetm.jpg", "/image2.jpg", "/image3.jpg"];
 
 function Home() {
-  const data = [
-    // Задаем константой все тексты статей
-    {
-      title: "ХРЕН!",
-      text: "Артериальное и венозное ",
-    },
-    {
-      title: "Статья 2. Ожоги",
-      text: "Ожоги бывают разной степени",
-    },
-    {
-      title: "Статья 3.",
-      text: "Текст текст",
-    },
-    {
-      title: "Статья 4.",
-      text: "Текст текст",
-    },
-    {
-      title: "Статья 4.",
-      text: "Текст текст",
-    },
-  ];
-
   return (
     <div className="app">
       <Header />
+      {/* <div className="Str" > */}
 
-      {/* <Carousel /> */}
-      {/* <Carousel images={images} /> */}
-      <Carousel photos={photos} />
+      <div className="preview" >
+         <p className='text-preview'> Сайт на котором вы <br/> получите практические <br/> знания по оказанию <br/> первой помощи
+         </p>
 
-      <div className="Str" style={{ display: "flex", width: "100%" }}>
-        <LeftPanel>
-          <ArticleAddButton />
-          {/* <CardButton>Предложить статью</CardButton> */}
+        <Button/>
+      </div>
+     
+      
 
-          <ContentList>
-            <CardButton>
-              <Content title={data[0].title} text={data[0].text} />
-            </CardButton>
+      <h3 style={{textAlign: 'center'}}>Вы узнаете</h3>
+      <p style={{textAlign: 'center'}}> Много важной информации. Например: </p>
 
-            <CardButton>
-              <Content title={data[1].title} text={data[1].text} />
-            </CardButton>
+      <div className="Block1" >
+        <img className='left-block1' src="/bro.jpg" alt="F" />
 
-            <CardButton>
-              <Content title={data[2].title} text={data[2].text} />
-            </CardButton>
-
-            <CardButton>
-              <Content title={data[3].title} text={data[3].text} />
-            </CardButton>
-
-            <CardButton>
-              <Content title={data[4].title} text={data[4].text} />
-            </CardButton>
-          </ContentList>
-        </LeftPanel>
-
-        <Body>
-          Body
-          <h5>Заголовок</h5>
-          <input type="text" />
-        </Body>
-
-        {/* <p>Какой-то текст</p>
-      <Button/> */}
+        <div className = 'right-block1'>
+          <h3> Как позвать на помощь? </h3>
+          <p> Очень важно сосредоточиться и позвонить <br/> по нужным телефонам </p>
+        </div>
       </div>
 
+      <div className="Block2" >
+        <div className = 'left-block2'>
+          <h3> Как оказать первую помощь? </h3>
+          <p> Если вы оказались в ситуации, когда рядом с вами <br/> находится пострадавший человек, очень важно точно знать, что делать. </p>
+        </div>
+      
+        <img className='right-block2' src="/group33.jpg" alt="F" />
+      </div>
+      
+
+      <div className="Block3" >
+        <img className='left-block3' src="/cuate.jpg" alt="F" />
+
+        <div className = 'right-block3'>
+          <h3> Что делать при встрече с опасными животными? </h3>
+          <p> Очень важно аааааааааа <br/> аааааааааааааааа </p>
+        </div>
+      </div>
+
+      <br/>
+      <h3 style={{textAlign: 'center', fontSize: '24px', fontWeight: '400'}}>Приложение</h3>
+      <p style={{textAlign: 'center'}}> Наше приложение было создано с целью помочь людям и мы <br/> очень надеемся, что Вам понравится его использовать!</p>
+      
+      
+      <Carousel photos={photos} />
+      <br/>
+
+      <p style={{textAlign: 'center'}}> Приложение имеет следующий функционал: <br/> </p>
+      
+
+      <Button/>
+
+      {/* </div> */}
       <Footer />
     </div>
   );
