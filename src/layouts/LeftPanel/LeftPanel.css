@@ -1,7 +1,8 @@
 .left-panel {
-    width: 400px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     gap: 30px;
     margin-top: 40px;  /* отступ сверху */
+    margin-right: 30px;;
 }

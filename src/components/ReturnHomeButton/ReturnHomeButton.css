@@ -1,0 +1,27 @@
+.return_home {
+	padding: 15px 40px;
+	text-align: center;
+	display: flex;
+	gap: 8px;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	background-color: #89C4DB;
+	color: #FFFFFF;
+	width: 250px;
+	margin-top: 20px;
+	margin-left: 23%;
+	margin-left: 23%;
+}
+
+.return_home a {
+	color: #FFFFFF;
+}
+
+.return_home:hover {
+	background-color: #727DEB;
+}
+
+.return_home a:hover {
+	color: #FFFFFF;
+}

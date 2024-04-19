@@ -1,5 +1,6 @@
 .footer {
     /* background: #f2f2f2; */
+    margin-top: 10px;
     background-color: #E5EDEF;
     top: 0;
     left: 0;
@@ -30,7 +31,7 @@
 
 
 .footer-links a {
-    margin-right: 30px;
+    margin-right: 80px;
     /* color: #333; */
     color: #555;
 }

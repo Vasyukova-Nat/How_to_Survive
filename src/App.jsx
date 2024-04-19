@@ -4,6 +4,7 @@ import Home from "./pages/Home.jsx";
 import FirstAid from "./pages/Articles_FirstAid.jsx";
 import Animals from "./pages/Articles_Animals.jsx";
 import CallHelp from "./pages/CallHelp.jsx";
+import AboutUs from "./pages/AboutUs.jsx";
 import Contacts from "./pages/Contacts.jsx";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Route path="/firstaid" element={<FirstAid />} />
       <Route path="/animals" element={<Animals />} />
       <Route path="/callhelp" element={<CallHelp />} />
+      <Route path="/aboutus" element={<AboutUs />} />
       <Route path="/contacts" element={<Contacts />} />
     </Routes>
   );

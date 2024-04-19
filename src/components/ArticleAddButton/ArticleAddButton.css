@@ -1,11 +1,26 @@
 .article-add {
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
+    padding: 10px 50px;
+    text-align: center;
     display: flex;
     gap: 8px;
     font-size: 16px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: normal;
+    background-color: #89C4DB;
+    color: #FFFFFF;
+    width: 250px;
+    margin-left: 600px;
+}
+
+.article-add a{
+    color: #FFFFFF;
+}
+
+.article-add:hover {
+    background-color: #727DEB;
+}
+
+.article-add a:hover {
+    color: #FFFFFF;
 }

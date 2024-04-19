@@ -13,7 +13,7 @@
     font-style: normal;
     font-weight: 600; /* насыщенность шрифта */
     line-height: 24px; /* Высота вкладок */
-    background: rgba(0, 0, 0, 0.1);
+    /* background: rgba(0, 0, 0, 0.1); */
     /* color: #EDECFE */
     
     
@@ -28,8 +28,7 @@
     font-weight: 400;
     line-height: normal;
     overflow: hidden;
-    
-    
+    padding-left: 20px;
 }
 
 .content__body {
