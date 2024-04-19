@@ -9,40 +9,52 @@
     top: 0;
     left: 0;
     width: 100%;
-    text-align: center;
-    
+
+
 
     background-color: #dbfbff;
     height: 60px;
-    padding: 2px 0;
+    /* padding: 2px 0; */
+    /* padding-left: 3px; */
     border-bottom: 1px solid #000000;
-    
+
 
     /* для юз стейт */
-        /* border-Bottom: '1px solid #ccc';
-        transition: 'top 0.3s';
-        top: isScrolled ? '-100px': '0'; */
+    /* border-Bottom: '1px solid #ccc';
+    transition: 'top 0.3s';
+    top: isScrolled ? '-100px': '0'; */
 }
 
 
 .header-links {
-    /* display: flex; */
-    display: inline-block;
+    height: 60px;
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    /* display: inline-block; */
     /* Расположение ссылок в ряд  */
 
-    /* justify-content: center; */
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+    /* text-align: center; */
 
-    /* max-width: 1200px; */
+    justify-content: center;
+    align-Items: 'center';
 
     /* margin-left: 1000px; */
     /* Отступ слева */
+
+
+
+
+
 }
 
 
 .header-links a {
     margin-right: 20px;
     color: #333;
-   
+
 }
 
 

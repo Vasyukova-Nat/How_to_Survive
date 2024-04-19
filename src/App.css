@@ -1,7 +1,7 @@
 .app {
-  display: flex;
+  display: block;
   padding: 30px;
-  
+  width: 100%;
 }
 
 

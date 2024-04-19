@@ -11,6 +11,13 @@ import ArticleAddButton from "./components/ArticleAddButton/ArticleAddButton";
 import Footer from "./components/Footer/Footer";
 // import Draft from './components/Draft/Draft';
 
+import Carousel from './components/Carousel/Carousel';
+const photos = [
+  '/planetm.jpg',
+  '/image2.jpg',
+  '/image3.jpg',
+];
+
 function Articles() {
   const data = [
     // Задаем константой все тексты статей
@@ -38,11 +45,18 @@ function Articles() {
 
   return (
     <div className="app">
+      <Header/>
+      
+      {/* <Carousel /> */}
+      {/* <Carousel images={images} /> */}
+      <Carousel photos={photos} />
+
+      <div className = 'Str' style={{display: 'flex', width: '100%'}}>
       <LeftPanel>
-        <Header />
         <ArticleAddButton />
+        {/* <CardButton>Предложить статью</CardButton> */}
+
         <ContentList>
-          {/* <CardButton>Предложить статью</CardButton> */}
           <CardButton>
             <Content title={data[0].title} text={data[0].text} />
           </CardButton>
@@ -73,7 +87,8 @@ function Articles() {
 
       {/* <p>Какой-то текст</p>
       <Button/> */}
-
+      </div>
+      
       <Footer />
     </div>
   );

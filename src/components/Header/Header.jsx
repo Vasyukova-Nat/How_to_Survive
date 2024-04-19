@@ -21,6 +21,7 @@ const [isScrolled, setIsScrolled] = useState(false);
     };
   }, []);
 
+
   return (
     <header className="header" style={{transition: 'top 0.3s', top: isScrolled ? '-100px' : '0' }}>
       
@@ -28,8 +29,8 @@ const [isScrolled, setIsScrolled] = useState(false);
         
       <div className="header-links">
         <a href="/">Home</a>
-        <a href="/about">Статьи</a>
-        <a href="#">Services</a>
+        <a href="/about">Как позвать на помощь?</a>
+        <a href="#">Статьи</a>
         <a href="/contact">Раздел</a>
       </div>
        
