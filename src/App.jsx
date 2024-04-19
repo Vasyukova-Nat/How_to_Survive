@@ -8,6 +8,10 @@ import Body from './layouts/Body/Body';
 import LeftPanel from './layouts/LeftPanel/LeftPanel';
 import ArticleAddButton from './components/ArticleAddButton/ArticleAddButton';
 
+import Footer from './components/Footer/Footer';
+// import Draft from './components/Draft/Draft';
+
+
 function App() {
   const data = [
     // Задаем константой все тексты статей
@@ -21,6 +25,14 @@ function App() {
     },
     {
       title: "Статья 3.",
+      text: "Текст текст",
+    },
+    {
+      title: "Статья 4.",
+      text: "Текст текст",
+    },
+    {
+      title: "Статья 4.",
       text: "Текст текст",
     },
   ];
@@ -52,18 +64,34 @@ function App() {
                 text={data[2].text}
             />
           </CardButton>
+
+          <CardButton>
+            <Content
+                title={data[3].title}
+                text={data[3].text}
+            />
+          </CardButton>
+
+          <CardButton>
+            <Content
+                title={data[4].title}
+                text={data[4].text}
+            />
+          </CardButton>
         </ContentList>
 
       </LeftPanel>
 
       <Body>
         Body
+        <h5>Заголовок</h5>
+        <input type='text'/>
       </Body>
 
-      {/* <h1>Заголовок</h1>
-      <p>Какой-то текст</p>
+      {/* <p>Какой-то текст</p>
       <Button/> */}
-      
+
+      <Footer />
 
     </div>
     

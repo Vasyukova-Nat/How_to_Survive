@@ -1,15 +1,52 @@
+.app {
+  display: flex;
+  padding: 30px;
+  
+}
 
 
+
+/* 
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+--  /* text-align: center; ╤Б╨╕╨╜╤П╤П ╨║╨╜╨╛╨┐╨║╨░ ╨б╨╛╤Е╤А╨░╨╜╨╕╤В╤М ╨┐╨╛ ╤Ж╨╡╨╜╤В╤А╤Г */
+
+
+/* text-align: center;  } */
+
+/*
+  body {
+    --color-text-primary: #131616;
+    --color-text-secondary: #ff6b00;
+@@@ -28,11 -28,11 +33,11 @@@ body[data-theme="light"] 
+  body[data-theme="dark"] {
+    --color-text-primary: #F2F5F7;
+    --color-bg-primary: #0E141B;
+--} 
 
   
+  .logo {
+    height: 6em;
+    padding: 1.5em;
+
+  
+  
+  
+--
+++ */
+
+
+  /*
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   /* text-align: center; синяя кнопка Сохранить по центру */
- } 
+ /* } */
 
-/* Описание тем начало */
+/* Описание тем начало 
 body {
   --color-text-primary: #131616;
   --color-text-secondary: #ff6b00;
@@ -29,7 +66,7 @@ body[data-theme="dark"] {
   --color-text-primary: #F2F5F7;
   --color-bg-primary: #0E141B;
 } */
-/* Описание тем конец */
+/* Описание тем конец 
 
 
 
@@ -68,7 +105,6 @@ body[data-theme="dark"] {
 .read-the-docs {
   color: #888;
 } 
-
-
+*/
 
 
