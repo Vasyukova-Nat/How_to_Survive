@@ -1,7 +1,29 @@
 .logo {
     width: 60px;
+    left: 81px;
+}
+
+.header-logo {
+    font-size: 24px;
+    display: flex;
+}
+
+.header-logo a {
+    margin-top: 12px;
+    color: #555;
+    font-weight: bold;
+}
+
+.header-logo a:hover {
+    color: #727DEB;
+}
+
+.header-menu {
+    width: 100%;
+    left: 5%;
     position: fixed;
-    left: 0;
+    height: 60px;
+    display: flex;
 }
 
 .header {
@@ -9,16 +31,10 @@
     top: 0;
     left: 0;
     width: 100%;
-
-
-
-    background-color: #dbfbff;
+    background-color: #DEF8F8;
     height: 60px;
     /* padding: 2px 0; */
     /* padding-left: 3px; */
-    border-bottom: 1px solid #000000;
-
-
     /* для юз стейт */
     /* border-Bottom: '1px solid #ccc';
     transition: 'top 0.3s';
@@ -27,37 +43,28 @@
 
 
 .header-links {
-    height: 60px;
-    width: 100%;
-    font-size: 25px;
+    margin-left: 3%;
+    font-size: 14px;
     display: flex;
     /* display: inline-block; */
     /* Расположение ссылок в ряд  */
-
     /* display: table-cell; */
     /* vertical-align: middle; */
     /* text-align: center; */
-
-    justify-content: center;
-    align-Items: 'center';
-
+    /* justify-content: center; */
+    /* align-Items: 'center'; */
     /* margin-left: 1000px; */
     /* Отступ слева */
-
-
-
-
-
 }
 
 
 .header-links a {
-    margin-right: 20px;
-    color: #333;
-
+    margin-right: 30px;
+    margin-top: 20px;
+    color: #555;
 }
 
 
 .header-links a:hover {
-    color: #00ffaa;
+    color: #727DEB;
 }

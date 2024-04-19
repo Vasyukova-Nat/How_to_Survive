@@ -7,12 +7,8 @@ import ContentList from "../components/ContentList/ContentList";
 import Body from "../layouts/Body/Body";
 import LeftPanel from "../layouts/LeftPanel/LeftPanel";
 import ArticleAddButton from "../components/ArticleAddButton/ArticleAddButton";
-
 import Footer from "../components/Footer/Footer";
 // import Draft from './components/Draft/Draft';
-
-import Carousel from "../components/Carousel/Carousel";
-const photos = ["/planetm.jpg", "/image2.jpg", "/image3.jpg"];
 
 function Articles() {
   const data = [
@@ -42,10 +38,6 @@ function Articles() {
   return (
     <div className="app">
       <Header />
-
-      {/* <Carousel /> */}
-      {/* <Carousel images={images} /> */}
-      <Carousel photos={photos} />
 
       <div className="Str" style={{ display: "flex", width: "100%" }}>
         <LeftPanel>

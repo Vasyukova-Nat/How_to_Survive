@@ -26,13 +26,17 @@ const Header = () => {
       className="header"
       style={{ transition: "top 0.3s", top: isScrolled ? "-100px" : "0" }}
     >
-      <img className="logo" src="/logo_med.svg" alt="F" />
+      <div className="header-menu">
+        <div className="header-logo">
+          <img className="logo" src="/logo_med.svg" alt="F" />
+          <a href="/">HowToSurvive</a>
+        </div>
 
-      <div className="header-links">
-        <a href="/">How To Survive</a>
-        <a href="/callhelp">Как позвать на помощь?</a>
-        <a href="/firstaid">Первая помощь</a>
-        <a href="/animals">При встрече с животными</a>
+        <div className="header-links">
+          <a href="/callhelp">Как позвать на помощь?</a>
+          <a href="/firstaid">Первая помощь</a>
+          <a href="/animals">При встрече с животными</a>
+        </div>
       </div>
     </header>
   );

@@ -1,28 +1,25 @@
 .footer {
     /* background: #f2f2f2; */
-    background-color: #333;
-    height: 40px;
+    background-color: #E5EDEF;
+    top: 0;
+    left: 0;
+    height: 80px;
     width: 100%;
-    padding: 15px 0;
-
     /* padding-left: 15px; */
     text-align: center;
     /* Выравнивание текста по центру */
-
     /* position: fixed; */
     /* left: 0; */
     /* bottom: 0; */
-
-
     /* padding: 10px 0; */
-
 }
 
 
 .footer-links {
-
     /* display: flex; */
-    display: inline-block;
+    margin-top: 25px;
+    display: inline-flex;
+    font-size: 18px;
     /* Расположение ссылок в ряд  */
 
     /* max-width: 1200px; */
@@ -33,12 +30,12 @@
 
 
 .footer-links a {
-    margin-right: 20px;
+    margin-right: 30px;
     /* color: #333; */
-    color: #fff;
+    color: #555;
 }
 
 
 .footer-links a:hover {
-    color: #00ffaa;
+    color: #727DEB;
 }
