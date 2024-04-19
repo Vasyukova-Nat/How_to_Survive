@@ -1,9 +1,9 @@
 import "./Header.css";
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 const Header = () => {
-// function Header() {
-const [isScrolled, setIsScrolled] = useState(false);
+  // function Header() {
+  const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -14,46 +14,37 @@ const [isScrolled, setIsScrolled] = useState(false);
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
-
   return (
-    <header className="header" style={{transition: 'top 0.3s', top: isScrolled ? '-100px' : '0' }}>
-      
-      <img className='logo' src='/logo_med.svg' alt="F" />
-        
+    <header
+      className="header"
+      style={{ transition: "top 0.3s", top: isScrolled ? "-100px" : "0" }}
+    >
+      <img className="logo" src="/logo_med.svg" alt="F" />
+
       <div className="header-links">
-        <a href="/">Home</a>
-        <a href="/about">Как позвать на помощь?</a>
-        <a href="#">Статьи</a>
-        <a href="/contact">Раздел</a>
+        <a href="/">How To Survive</a>
+        <a href="/callhelp">Как позвать на помощь?</a>
+        <a href="/firstaid">Первая помощь</a>
+        <a href="/animals">При встрече с животными</a>
       </div>
-       
-     </header>
+    </header>
   );
 };
 
 export default Header;
-
-
-
-
-
-
-
 
 // return (
 //   <>
 //   <img className='logo' src='/logo_med.svg' alt="F" />
 //   </>
 //   )
-
-
 
 //   import "./Header.css";
 
@@ -73,4 +64,3 @@ export default Header;
 // }
 
 // export default Header;
- 
