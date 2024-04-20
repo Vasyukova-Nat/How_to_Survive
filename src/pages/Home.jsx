@@ -6,7 +6,7 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 
 import Carousel from "../components/Carousel/Carousel";
-const photos = ["/planetm.jpg", "/image2.jpg", "/image3.jpg"];
+const photos = ["/planetm.jpg",'мы1.jpg', 'мы2.jpg', "/image2.jpg", "/image3.jpg"];
 
 function Home() {
   return (

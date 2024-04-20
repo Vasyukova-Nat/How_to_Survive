@@ -1,26 +1,39 @@
 import "../App.css";
-// import Button from "./components/Button/Button";
+import "./AboutUs.css";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
-// import Draft from './components/Draft/Draft';
+import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs';
 
-import Carousel from "../components/Carousel/Carousel";
-const photos = ["/planetm.jpg", "/image2.jpg", "/image3.jpg"];
 
 function Contacts() {
+
   return (
-    <div className="app">
+    <div className="page-contacts">
       <Header />
 
-      {/* <Carousel /> */}
-      {/* <Carousel images={images} /> */}
-      <Carousel photos={photos} />
+      <Breadcrumbs />
+      <div className="rectangle-contacts" >
+         <h5 className='title-contacts'> О нас </h5>
+      </div>
 
-      <div className="Str" style={{ display: "flex", width: "100%" }} />
+      <div className="contacts-container">
+
+        
+
+      <div className="about-us">
+        <h2>ЗАГОЛОВОК О нас</h2>
+        <p>Мы - команда студентов первого курса бакалавриата МТУСИ на направлении 09.03.01 факультета Информационные Технологии.</p>
+        <p>Нас объединяет не только номер учебной группы, но и общая цель - проект Как Выжить в рамках дисциплины Проектный практикум.</p>
+        <p>Своей целью мы поставили создать веб-сайт.</p>
+      </div>
+
+    </div>
+
 
       <Footer />
     </div>
-  );
+
+);
 }
 
 export default Contacts;
