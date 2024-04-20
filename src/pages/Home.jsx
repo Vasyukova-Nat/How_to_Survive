@@ -10,7 +10,7 @@ const photos = ["/planetm.jpg",'мы1.jpg', 'мы2.jpg', "/image2.jpg", "/image3
 
 function Home() {
   return (
-    <div className="app">
+    <div className="home-page">
       <Header />
       {/* <div className="Str" > */}
 

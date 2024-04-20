@@ -1,0 +1,12 @@
+.page-contacts {
+    display: block;
+    /* width: 100%;  */
+    margin-top: 80px;
+    /* height: 100vh; */
+    /* в другом файле */
+}
+
+.contacts-container {
+    margin-left: 100px;
+}
+

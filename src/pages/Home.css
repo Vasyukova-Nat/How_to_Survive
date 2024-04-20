@@ -1,43 +1,38 @@
-.app {
+.home-page {
     display: block;
-    padding: 30px;
+    margin-top: 60px;
+    /* padding: 30px; */
     width: 100%;
     /* margin-top: 10px; */
-    
+
 }
 
-.Str{
+.Str {
     display: block;
     width: 100%;
 }
 
 
-.preview{
+.preview {
     /* background-color: lightblue; */
     /* background-color: #E5EDEF; */
     background: #F7F8F9;
     height: 511px;
-    width: 1440px;
-    top: 80px;
+    width: 100%;
+    /* justify-content: center; */
+    /* align-items: scenter; */
 }
 
 .text-preview {
-    width: 428px;
-    height: 156px;
-    top: 212px;
-    left: 120px;
-    gap: 0px;
-    opacity: 0px;
-    
+    top: 50px;
+    left: 20px;
     font-size: 32px;
     font-weight: 300;
-    line-height: 38.73px;
-    text-align: center;
-        
+    /* text-align: center; */
 }
 
 
-.Block1{
+.Block1 {
     display: flex;
     margin-top: 60px;
     /* width: 100%; */
@@ -45,13 +40,12 @@
 
 .left-block1 {
     flex: 1;
-
     width: 728px;
-        height: 631px;
-        top: 931px;
-        left: -25px;
-        gap: 0px;
-        opacity: 0px;
+    height: 631px;
+    top: 931px;
+    left: -25px;
+    gap: 0px;
+    opacity: 0px;
 }
 
 .right-block1 {
@@ -74,8 +68,8 @@
 .right-block2 {
     flex: 2;
     /* width: 60px; */
-    
-    
+
+
 }
 
 
@@ -86,7 +80,7 @@
 
 .left-block3 {
     flex: 1;
-    
+
 }
 
 .right-block3 {

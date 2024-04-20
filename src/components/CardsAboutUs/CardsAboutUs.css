@@ -1,0 +1,29 @@
+.about-us {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+}
+
+.employee-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.employee-info {
+    margin-left: 20px;
+}
+
+.employee-info h3 {
+    font-size: 25px;
+}
+
+.employee-info p {
+    font-size: 20px;
+    color: #666;
+}

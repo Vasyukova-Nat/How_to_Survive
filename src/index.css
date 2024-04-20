@@ -25,10 +25,15 @@ a:hover {
 
 .body {
   margin: 0;
-  display: flex;
   place-items: center;
-  min-width: 320px;
+
+  display: flex;
+  flex-direction: column;
+
+  /* min-width: 320px; */
   min-height: 100vh;
+  /* height: 100vh; */
+  /* ВОТ ОНО! РАСТЯГИВАНИЕ СТРАНИЦЫ ПО ВСЕМУ ЭКРАНУ! */
 }
 
 .h1 {
