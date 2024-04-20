@@ -3,6 +3,6 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-top: 40px;  /* отступ сверху */
+    margin-top: 40px;
     margin-right: 30px;;
 }

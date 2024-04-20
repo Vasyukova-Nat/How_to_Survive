@@ -1,4 +1,6 @@
-.full_body {
+.body {
 	margin-top: 40px;
-	width: 1130px;
+	width: 1200px;
+	display: flex;
+	flex-direction: column;
 }

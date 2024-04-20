@@ -1,4 +1,4 @@
-import "../App.css";
+import "./Articles_Animals.css";
 import { useState } from "react";
 // import Button from "./components/Button/Button";
 import Content from "../components/Content/Content";
@@ -13,6 +13,7 @@ import ArticleTitle from "../components/ArticleTitle/ArticleTitle";
 import ArticleText from "../components/ArticleText/ArticleText";
 import ArticleImg from "../components/ArticleImg/ArticleImg";
 import Title from "../components/Title/Title";
+import Breadcrumbs from "../components/Breadcrumbs/Breadcrumbs";
 // import Draft from './components/Draft/Draft';
 
 function Articles() {
@@ -62,6 +63,8 @@ function Articles() {
   return (
     <div className="app">
       <Header />
+
+      <Breadcrumbs />
 
       <div className="Str" style={{ display: "flex" }}>
         <LeftPanel>

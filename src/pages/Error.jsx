@@ -1,5 +1,5 @@
 import { useRouteError } from "react-router-dom";
-import "../App.css";
+import "./Error.css";
 import Img from "../components/Img/Img";
 import ErrorTitle from "../components/ErrorTitle/ErrorTitle";
 import ErrorText from "../components/ErrorText/ErrorText";
@@ -16,7 +16,7 @@ export default function ErrorPage() {
     <div className="app">
       <Header />
       <FullBody>
-        <div style={{ display: "inline-flex" }}>
+        <div style={{ display: "flex" }}>
           <Img img={["/error_cat.jpg"]} />
           <div>
             <ErrorTitle />

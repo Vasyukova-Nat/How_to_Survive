@@ -1,7 +1,7 @@
 import "./FullBody.css";
 
 function FullBody({ children }) {
-  return <div className="full_body">{children}</div>;
+  return <div className="body">{children}</div>;
 }
 
 export default FullBody;
