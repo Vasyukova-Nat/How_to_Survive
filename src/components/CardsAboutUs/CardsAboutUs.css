@@ -2,7 +2,8 @@
     display: block;
     justify-content: space-around;
     align-items: center;
-    width: 700px;
+    /* text-align: center; */
+    width: 950px;
 }
 
 .employee-card {
@@ -16,7 +17,7 @@
 }
 
 .employee-info {
-    margin-left: 20px;
+    margin-left: 80px;
 }
 
 .employee-info h3 {

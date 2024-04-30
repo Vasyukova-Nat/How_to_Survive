@@ -1,9 +1,9 @@
-import "../App.css";
+import "../../App.css";
 import "./AboutUs.css";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
-import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs';
-import EmployeeCard from '../components/CardsAboutUs/CardsAboutUs';
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
+import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
+import EmployeeCard from '../../components/CardsAboutUs/CardsAboutUs';
 
 
 function AboutUs() {
@@ -30,16 +30,7 @@ function AboutUs() {
         <h3 style={{textAlign: 'center', fontSize: '30px'}}> В нашей команде: </h3>
 
         <EmployeeCard />
-
-      {/* <div className="about-us-page"> */}
-          
-      {/* <EmployeeCard name="Jane Smith" position="Designer" photoUrl="jane.jpg" /> */}
-      {/* </div> */}
-
       </div>
-
-    
-
 
       <Footer />
     </div>

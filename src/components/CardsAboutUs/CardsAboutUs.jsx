@@ -1,31 +1,29 @@
 import "./CardsAboutUs.css";
-// "/phones.png"
-
 
 const employees = [
   {
     id: 1,
     name: 'Болотов Илья Дмитриевич',
-    position: 'Android',
-    image: 'Ил.jpg'
+    position: 'Android-разработчик',
+    image: 'Ильяm.jpg'
   },
   {
     id: 2,
     name: 'Васюкова Наталья Павловна',
-    position: 'Frontend',
-    image: 'фф.jpg'
+    position: 'Frontend-разработчик',
+    image: 'Натальяm.jpg'
   },
   {
     id: 3,
     name: 'Морозова Ольга Андреевна',
-    position: 'Frontend',
-    image: 'image3m.jpg'
+    position: 'Frontend-разработчик',
+    image: 'Ольгаm.jpg'
   },
   {
     id: 4,
     name: 'Ситникова Дарья Евгеньевна',
-    position: 'UI/UX дизайн',
-    image: 'image3m.jpg'
+    position: 'UI/UX дизайнер',
+    image: 'Дарьяm.jpg'
   }
 ];
 

@@ -1,8 +1,8 @@
-import "../App.css";
+import "../../App.css";
 import "./Contacts.css";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
-import Breadcrumbs from '../components/Breadcrumbs/Breadcrumbs';
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
+import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
 
 
 function Contacts() {

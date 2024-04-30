@@ -4,28 +4,40 @@
     align-items: center;
 }
 
-.prev,
+.triangle-button {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.prev {
+    cursor: pointer;
+    /* при наведении показывается палец, то есть на элемент можно нажимать */
+    border-width: 20px 35px 20px 0;
+    border-color: transparent #909090 transparent transparent;
+}
+
 .next {
     cursor: pointer;
-    background-color: #f1f1f1;
-    color: #333;
-    padding: 10px 20px;
-    margin: 0 10px;
+    border-width: 20px 0 20px 35px;
+    border-color: transparent transparent transparent #909090;
 }
 
+.prev:hover {
+    border-color: transparent #cccccc transparent transparent;
+}
 
-.prev:hover,
 .next:hover {
-    background-color: #ccc;
+    /* background-color: #d9d9d9; */
+    border-color: transparent transparent transparent #cccccc;
 }
 
-
-.img {
+.photo {
     max-width: 100%;
-    max-height: 400px;
+    max-height: 520px;
     /* transition: transform 0.5s ease-in-out; */
     transition: transform 0.5s ease;
+    border-radius: 10px;
 }
-
-
-

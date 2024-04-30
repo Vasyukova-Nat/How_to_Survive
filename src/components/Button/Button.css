@@ -1,22 +1,26 @@
-
 .button {
-    border-radius: 6px;
-    padding: 8px 30px;
+    border-radius: 4px;
+    /* padding: 8px 30px; */
+    padding: 20px;
     font-family: inherit;
     cursor: pointer;
-    transition: background 0.25s;
-    font-size: 16px;
+    transition: 0.25s;
+    font-size: 24px;
     /* font-weight: 500; */
-    border: none; /* уберем бортик */
+    border: none;
+    /* уберем бортик */
 
+    /* text-decoration: none; */
+    color: white;
+    width: 300px;
+    height: 69px;
+    background: #89C4DB;
+    text-align: center;
+
+    /* text-align: start; */
+    /* display: block; */
 }
 
-.accent:hover {
-    background: #00ff37; /* Цвет при наведении */
-}
-
-
-
-.accent {
-    background: #312EB5;
+.button:hover {
+    background: #abe3f9;
 }

@@ -1,11 +1,11 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home.jsx";
-import FirstAid from "./pages/Articles_FirstAid.jsx";
-import Animals from "./pages/Articles_Animals.jsx";
-import CallHelp from "./pages/CallHelp.jsx";
-import AboutUs from "./pages/AboutUs.jsx";
-import Contacts from "./pages/Contacts.jsx";
+import Home from "./pages/Home/Home.jsx";
+import FirstAid from "./pages/Articles_FirstAid/Articles_FirstAid.jsx";
+import Animals from "./pages/Articles_Animals/Articles_Animals.jsx";
+import CallHelp from "./pages/CallHelp/CallHelp.jsx";
+import AboutUs from "./pages/AboutUs/AboutUs.jsx";
+import Contacts from "./pages/Contacts/Contacts.jsx";
 
 function App() {
   return (

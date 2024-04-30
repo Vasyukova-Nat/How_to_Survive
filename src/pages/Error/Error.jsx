@@ -1,12 +1,12 @@
 import { useRouteError } from "react-router-dom";
 import "./Error.css";
-import Img from "../components/Img/Img";
-import ErrorTitle from "../components/ErrorTitle/ErrorTitle";
-import ErrorText from "../components/ErrorText/ErrorText";
-import Header from "../components/Header/Header";
-import Footer from "../components/Footer/Footer";
-import FullBody from "../layouts/FullBody/FullBody";
-import ReturnHomeButton from "../components/ReturnHomeButton/ReturnHomeButton";
+import Img from "../../components/Img/Img";
+import ErrorTitle from "../../components/ErrorTitle/ErrorTitle";
+import ErrorText from "../../components/ErrorText/ErrorText";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
+import FullBody from "../../layouts/FullBody/FullBody";
+import ReturnHomeButton from "../../components/ReturnHomeButton/ReturnHomeButton";
 
 export default function ErrorPage() {
   const error = useRouteError();
