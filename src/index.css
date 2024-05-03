@@ -31,7 +31,7 @@ a:hover {
   flex-direction: column;
 
   /* min-width: 320px; */
-  min-height: 100vh;
+  /* min-height: 100vh; */
   /* height: 100vh; */
   /* ВОТ ОНО! РАСТЯГИВАНИЕ СТРАНИЦЫ ПО ВСЕМУ ЭКРАНУ! */
 }

@@ -21,24 +21,24 @@
 .header-menu {
     width: 100%;
     left: 5%;
-    position: fixed;
+    /* position: fixed; до */
     height: 60px;
     display: flex;
 }
 
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
+    /* position: fixed; */
+    /* top: 0; */
+    /* left: 0; */
     width: 100%;
-    background-color: #DEF0F8; 
+    background-color: #DEF0F8;
     height: 60px;
     /* padding: 2px 0; */
     /* padding-left: 3px; */
-    /* для юз стейт */
-    /* border-Bottom: '1px solid #ccc';
-    transition: 'top 0.3s';
-    top: isScrolled ? '-100px': '0'; */
+
+    /* max-width: 2200px; */
+    /* margin: 0 auto; */
+    text-align: center;
 }
 
 
