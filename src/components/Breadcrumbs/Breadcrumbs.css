@@ -25,7 +25,9 @@
 }
 
 .breadcrumbs {
+    margin-top: 20px;
     margin-bottom: 20px;
+    /* отступ после блока с хлебными крошками */
     font-size: 16px;
     text-transform: capitalize;
 }

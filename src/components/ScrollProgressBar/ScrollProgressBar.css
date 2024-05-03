@@ -1,5 +1,6 @@
 .scroll-progress {
     position: fixed;
+    margin-left: 0px;
     top: 0px;
     height: 5px;
     /* background-color: #ff5e00; */

@@ -29,7 +29,7 @@ const Header = () => {
     >
       <div className="header-menu">
         <div className="header-logo">
-          <img className="logo" src="/logo_med.svg" alt="F" />
+          <img className="logo" src="/app-logo-title.svg" alt="F" />
           <a href="/">HowToSurvive</a>
         </div>
 

@@ -21,10 +21,10 @@ function Contacts() {
           <br />
           Болотов Илья Дмитриевич - Android @Paragven <br /> Васюкова Наталья
           Павловна - Fullstack @nata_lotal
-          <br /> Морозова Ольга Андреевна - Frontend @tvar_iz_ada <br />{" "}
+          <br /> Морозова Ольга Андреевна - Fullstack @tvar_iz_ada <br />{" "}
           Ситникова Дарья Евгеньевна - UI/UX дизайн @manul0w0
           <br />
-          <br /> Наша цель - ваше удовлетворение и успешная коммуникация.
+          <br /> Наша цель - Ваше удовлетворение и успешная коммуникация.
         </p>
         Text <br />
         <input type="text" />

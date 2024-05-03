@@ -17,6 +17,7 @@
     /* при наведении показывается палец, то есть на элемент можно нажимать */
     border-width: 20px 35px 20px 0;
     border-color: transparent #909090 transparent transparent;
+    background-color: transparent;
 }
 
 .prev:active {
@@ -31,6 +32,7 @@
     cursor: pointer;
     border-width: 20px 0 20px 35px;
     border-color: transparent transparent transparent #909090;
+    background-color: transparent;
 }
 
 .next:active {
