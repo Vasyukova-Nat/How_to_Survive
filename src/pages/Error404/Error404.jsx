@@ -1,5 +1,4 @@
-import "./Error.css";
-import { useRouteError } from "react-router-dom";
+import "./Error404.css";
 import Img from "../../components/Img/Img";
 import ErrorTitle from "../../components/ErrorTitle/ErrorTitle";
 import ErrorText from "../../components/ErrorText/ErrorText";
@@ -7,9 +6,6 @@ import FullBody from "../../layouts/FullBody/FullBody";
 import Button from "../../components/Button/Button";
 
 export default function ErrorPage() {
-  const error = useRouteError();
-  console.error(error);
-
   return (
     <div className="app">
       <FullBody>
@@ -17,7 +13,7 @@ export default function ErrorPage() {
           <Img img={["/error_cat.jpg"]} />
           <div>
             <ErrorTitle />
-            <ErrorText error_text={error.statusText || error.message} />
+            <ErrorText error_text="Not Fount" />
             <div style={{ marginLeft: "20%", marginTop: "20px" }}>
               <Button text="Перейти на Главную" link="/" />
             </div>

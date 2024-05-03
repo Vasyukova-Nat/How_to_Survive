@@ -1,44 +1,26 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import Error from "./pages/Error/Error.jsx";
-
-//import { useState, useEffect } from "react";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "*",
     element: <App />,
     errorElement: <Error />,
-    children: [
-      {
-        path: "/firstaid",
-        element: <App />,
-      },
-      {
-        path: "/animals",
-        element: <App />,
-      },
-      {
-        path: "/callhelp",
-        element: <App />,
-      },
-      {
-        path: "/about-us",
-        element: <App />,
-      },
-      {
-        path: "/contacts",
-        element: <App />,
-      },
-    ],
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <div className="app">
+      <Header />
+      <RouterProvider router={router} />
+      <Footer />
+    </div>
   </React.StrictMode>
 );

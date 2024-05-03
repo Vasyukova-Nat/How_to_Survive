@@ -1,12 +1,14 @@
 import "./Button.css";
 
-function Button ({ text, link }) {
+function Button({ text, link }) {
   const handleClick = () => {
     window.location.href = link; // ссылка для перехода
   };
 
   return (
-    <button className="button" onClick={handleClick}>{text}</button>
+    <button className="button" onClick={handleClick}>
+      {text}
+    </button>
   );
 }
 

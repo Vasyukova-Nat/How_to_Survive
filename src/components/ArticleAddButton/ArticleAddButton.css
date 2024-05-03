@@ -1,26 +1,27 @@
-.article-add {
+.art_add_btn {
     padding: 10px 50px;
     text-align: center;
     display: flex;
-    gap: 8px;
-    font-size: 16px;
-    font-style: normal;
+    /* gap: 8px; */
+    font-size: 20px;
+    /* font-style: normal; */
     font-weight: 500;
     line-height: normal;
-    background-color: #89C4DB;
-    color: #FFFFFF;
     width: 250px;
     margin-left: 600px;
+    border-radius: 4px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 0.25s;
+    border: none;
+    color: white;
+    background: #89C4DB;
 }
 
-.article-add a{
-    color: #FFFFFF;
+.art_add_btn:hover {
+    background: #abe3f9;
 }
 
-.article-add:hover {
-    background-color: #727DEB;
-}
-
-.article-add a:hover {
-    color: #FFFFFF;
+.art_add_btn:active {
+    transform: scale(1.2);
 }

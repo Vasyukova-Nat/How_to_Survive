@@ -1,11 +1,14 @@
-import CardButton from "../CardButton/CardButton";
 import "./ArticleAddButton.css";
 
-function ArticleAddButton() {
+function ArticleAddButton({ text, link }) {
+  const handleClick = () => {
+    window.location.href = link; // ссылка для перехода
+  };
+
   return (
-    <CardButton className="article-add">
-      <a href="">Предложить свою статью</a>
-    </CardButton>
+    <button className="art_add_btn" onClick={handleClick}>
+      {text}
+    </button>
   );
 }
 
