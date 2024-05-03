@@ -1,6 +1,7 @@
-.body {
+.full_body {
 	margin-top: 40px;
 	width: 1200px;
 	display: flex;
 	flex-direction: column;
+	place-items: center;
 }

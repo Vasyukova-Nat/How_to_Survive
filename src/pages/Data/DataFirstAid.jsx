@@ -3,6 +3,7 @@ import Articles from "../ArticlesFirstAid/ArticlesFirstAid";
 const Data = () => {
   const data = [
     {
+      id: 0,
       title: "1. Кровотечение",
       text: "Артериальное и венозное",
       arttitle: "Кровотечение",
@@ -32,6 +33,7 @@ const Data = () => {
       ],
     },
     {
+      id: 1,
       title: "2. Ожоги",
       text: "Ожоги бывают разной степени",
       arttitle: "Ожоги",
@@ -62,6 +64,7 @@ const Data = () => {
       ],
     },
     {
+      id: 2,
       title: "3. Статья",
       text: "Текст текст",
       arttitle: "Статья",
@@ -76,6 +79,7 @@ const Data = () => {
       ],
     },
     {
+      id: 3,
       title: "4. Статья",
       text: "Текст текст",
       arttitle: "Статья",
@@ -90,6 +94,7 @@ const Data = () => {
       ],
     },
     {
+      id: 4,
       title: "5. Статья",
       text: "Текст текст",
       arttitle: "Статья",

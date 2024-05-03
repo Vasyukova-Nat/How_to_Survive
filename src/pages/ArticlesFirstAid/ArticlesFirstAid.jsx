@@ -8,11 +8,17 @@ import Body from "../../layouts/Body/Body";
 import LeftPanel from "../../layouts/LeftPanel/LeftPanel";
 import ArticleAddButton from "../../components/ArticleAddButton/ArticleAddButton";
 import Title from "../../components/Title/Title";
+import Search from "../../components/Search/Search";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import FirstAid from "../../components/Articles/FirstAid";
 
 function Articles({ data }) {
   const [Index, setIndex] = useState(0);
+  const [search, SetSearch] = useState("");
+
+  const findArticle = data.filter((data) => {
+    return data.title.toLowerCase().includes(search.toLowerCase());
+  });
 
   return (
     <div className="app">
@@ -21,26 +27,13 @@ function Articles({ data }) {
       <div className="Str" style={{ display: "flex" }}>
         <LeftPanel>
           <Title title="Первая помощь" />
+          <Search onChange={(event) => SetSearch(event.target.value)} />
           <ContentList>
-            <CardButton onClick={() => setIndex(0)}>
-              <Content title={data[0].title} text={data[0].text} />
-            </CardButton>
-
-            <CardButton onClick={() => setIndex(1)}>
-              <Content title={data[1].title} text={data[1].text} />
-            </CardButton>
-
-            <CardButton onClick={() => setIndex(2)}>
-              <Content title={data[2].title} text={data[2].text} />
-            </CardButton>
-
-            <CardButton onClick={() => setIndex(3)}>
-              <Content title={data[3].title} text={data[3].text} />
-            </CardButton>
-
-            <CardButton onClick={() => setIndex(4)}>
-              <Content title={data[4].title} text={data[4].text} />
-            </CardButton>
+            {findArticle.map((el) => (
+              <CardButton key={el.id} onClick={() => setIndex(el.id)}>
+                <Content title={el.title} text={el.text} />
+              </CardButton>
+            ))}
           </ContentList>
         </LeftPanel>
 

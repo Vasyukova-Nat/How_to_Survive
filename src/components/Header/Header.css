@@ -43,9 +43,9 @@
 
 
 .header-links {
-    margin-left: 3%;
     font-size: 14px;
     display: flex;
+    margin-left: 13%;
     /* display: inline-block; */
     /* Расположение ссылок в ряд  */
     /* display: table-cell; */
