@@ -24,3 +24,7 @@
 .button:hover {
     background: #abe3f9;
 }
+
+.button:active {
+    transform: scale(1.2);
+}

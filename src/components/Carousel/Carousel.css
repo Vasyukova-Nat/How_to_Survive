@@ -19,14 +19,22 @@
     border-color: transparent #909090 transparent transparent;
 }
 
+.prev:active {
+    transform: scale(0.9);
+}
+
+.prev:hover {
+    border-color: transparent #cccccc transparent transparent;
+}
+
 .next {
     cursor: pointer;
     border-width: 20px 0 20px 35px;
     border-color: transparent transparent transparent #909090;
 }
 
-.prev:hover {
-    border-color: transparent #cccccc transparent transparent;
+.next:active {
+    transform: scale(0.9);
 }
 
 .next:hover {

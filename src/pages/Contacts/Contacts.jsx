@@ -3,7 +3,7 @@ import "./Contacts.css";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import Breadcrumbs from '../../components/Breadcrumbs/Breadcrumbs';
-
+import TextInput from '../../components/ArticleAddField/ArticleAddField';
 
 function Contacts() {
 
@@ -28,6 +28,9 @@ function Contacts() {
       <br/><br/>
       Text2 <br/>
       <input type='text'/>
+
+      <br/> <br/>
+      <TextInput/>
 
     </div>
 

@@ -26,6 +26,10 @@
     background-color: #2980b9;
 }
 
+.bt-next:active {
+    transform: scale(0.9);
+}
+
 
 .bt-answ-option {
     /* width: 200px; */
@@ -42,4 +46,8 @@
 
 .bt-answ-option:hover {
     background-color: #818181;
+}
+
+.bt-answ-option:active {
+    transform: scale(0.9);
 }
