@@ -23,8 +23,8 @@ a:hover {
   color: #535bf2;
 }
 
-.body {
-  margin: 0;
+body {
+  margin: 0px;
   place-items: center;
 
   display: flex;
@@ -36,7 +36,7 @@ a:hover {
   /* ВОТ ОНО! РАСТЯГИВАНИЕ СТРАНИЦЫ ПО ВСЕМУ ЭКРАНУ! */
 }
 
-.h1 {
+h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
@@ -46,6 +46,11 @@ a:hover {
   :root {
     color: #213547;
     background-color: #ffffff;
+    
+    /* margin-top: -8px; */
+    /* margin-left: -8px;
+    margin-right: -15px; */
+    /* margin: -8px; */
   }
   a:hover {
     color: #747bff;

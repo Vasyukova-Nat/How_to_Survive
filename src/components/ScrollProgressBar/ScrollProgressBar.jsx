@@ -23,7 +23,7 @@ const ScrollProgressBar = () => {
 
   return (
     <div className="scroll-progress" style={{ width: `${scroll}%` }}></div>
-    //значение ширины элемента будет равно проценту, указанному в переменной scroll.
+    //значение ширины элемента == проценту, указанному в перем scroll.
   );
 };
 

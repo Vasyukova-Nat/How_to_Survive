@@ -11,7 +11,7 @@ export default function ErrorPage() {
   console.error(error);
 
   return (
-    <div className="app">
+    <div className="StrError">
       <FullBody>
         <div style={{ display: "flex" }}>
           <Img img={["/error_cat.jpg"]} />

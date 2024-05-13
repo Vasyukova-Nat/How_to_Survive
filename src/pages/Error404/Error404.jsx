@@ -7,7 +7,7 @@ import Button from "../../components/Button/Button";
 
 export default function ErrorPage() {
   return (
-    <div className="app">
+    <div className="StrError404">
       <FullBody>
         <div style={{ display: "flex" }}>
           <Img img={["/error_cat.jpg"]} />

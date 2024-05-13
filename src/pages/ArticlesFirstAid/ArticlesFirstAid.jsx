@@ -21,7 +21,7 @@ function Articles({ data }) {
   });
 
   return (
-    <div className="app">
+    <div className="StrArticlesFirstAid">
       <Breadcrumbs />
 
       <div className="Str" style={{ display: "flex" }}>
