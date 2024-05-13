@@ -6,6 +6,8 @@ import "./index.css";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Error from "./pages/Error/Error.jsx";
+import ScrollProgressBar from './components/ScrollProgressBar/ScrollProgressBar';
+
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,7 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <div className="app">
+      <ScrollProgressBar/>
       <Header />
       <RouterProvider router={router} />
       <Footer />

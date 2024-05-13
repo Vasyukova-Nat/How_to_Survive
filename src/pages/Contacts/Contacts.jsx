@@ -1,7 +1,9 @@
 import "../../App.css";
 import "./Contacts.css";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
-import TextInput from "../../components/ArticleAddField/ArticleAddField";
+// import TextInput from "../../components/ArticleAddField/ArticleAddField";
+
+import FeedBack from "../../components/FeedBack/FeedBack";
 
 function Contacts() {
   return (
@@ -26,14 +28,13 @@ function Contacts() {
           <br />
           <br /> Наша цель - Ваше удовлетворение и успешная коммуникация.
         </p>
-        Text <br />
-        <input type="text" />
-        <br />
-        <br />
-        Text2 <br />
-        <input type="text" />
-        <br /> <br />
-        <TextInput />
+
+         <br />
+
+        {/* <input type="text" /> */}
+        {/* <TextInput /> */}
+
+        <FeedBack/>
       </div>
     </div>
   );

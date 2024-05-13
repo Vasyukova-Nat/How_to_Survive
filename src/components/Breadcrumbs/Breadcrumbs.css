@@ -1,3 +1,21 @@
+.breadcrumbs {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* отступ после блока с хлебными крошками */
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.breadcrumbs a {
+    text-decoration: none;
+    color: #333;
+}
+
+.breadcrumbs span {
+    color: #999;
+}
+
 
 .product-grid {
     display: grid;
@@ -22,21 +40,4 @@
     height: 250px;
     object-fit: cover;
     max-height: 200px;
-}
-
-.breadcrumbs {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    /* отступ после блока с хлебными крошками */
-    font-size: 16px;
-    text-transform: capitalize;
-}
-
-.breadcrumbs a {
-    text-decoration: none;
-    color: #333;
-}
-
-.breadcrumbs span {
-    color: #999;
 }

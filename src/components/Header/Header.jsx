@@ -1,6 +1,5 @@
 import "./Header.css";
 import { useState, useEffect } from "react";
-import ScrollProgressBar from '../../components/ScrollProgressBar/ScrollProgressBar';
 
 const Header = () => {
   // function Header() {
@@ -40,7 +39,7 @@ const Header = () => {
         </div>
       </div>
 
-      <ScrollProgressBar/>
+      
     </header>
   );
 };
