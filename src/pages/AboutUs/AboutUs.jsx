@@ -6,9 +6,11 @@ import CardsAboutUs from "../../components/CardsAboutUs/CardsAboutUs";
 function AboutUs() {
   return (
     <div className="page-about-us">
+
       <Breadcrumbs />
-      <div className="rectangle-contacts">
-        <h5 className="title-contacts"> О нас </h5>
+
+      <div style={{display: 'flex', background: '#DEF0F8'}}>
+        <h5 style={{fontSize: '36px', fontWeight: '500', textAlign: 'center', width: '100%'}}>О нас</h5>
       </div>
 
       <div className="about-us-container">

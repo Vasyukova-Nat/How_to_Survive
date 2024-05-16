@@ -6,9 +6,9 @@ function CallHelp() {
   return (
     <div className="app">
       <Breadcrumbs />
-
-      <div className="rectangle-title">
-        <h5 className="text-title"> Как позвать на помощь </h5>
+      
+      <div style={{display: 'flex', background: '#DEF0F8'}}>
+        <h5 style={{fontSize: '36px', fontWeight: '500', textAlign: 'center', width: '100%'}}>Как позвать на помощь</h5>
       </div>
 
       <p style={{ textAlign: "center", fontSize: "20px" }}>

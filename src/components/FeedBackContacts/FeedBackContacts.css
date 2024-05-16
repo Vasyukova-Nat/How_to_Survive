@@ -1,0 +1,57 @@
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    font-Size: 20px;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-Size: 20px;
+    /* устанавливаем размер шрифта */
+
+    border: 1px solid #ccc;
+    /* устанавливаем толщину и цвет рамки */
+    border-radius: 5px;
+    /* скругление углов рамки */
+
+    padding: 5px;
+    /* устанавливаем отступ внутри рамки */
+
+    /* width: 200px; */
+    /* устанавливаем ширину поля ввода */
+
+}
+
+
+.bt-send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-Align: center;
+    height: 52px;
+    width: 199px;
+    /* padding: 5px 10px; */
+    border-radius: 15px;
+    background-color: #89C4DB;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    /* font-family: Inter; */
+    /* line-height: 24.2px; */
+    margin-bottom: 0px;
+}
+
+.bt-send:hover {
+    background-color: #0056b3;
+}
+
+.tick {
+    padding-left: 15px;
+    height: 33px;
+}

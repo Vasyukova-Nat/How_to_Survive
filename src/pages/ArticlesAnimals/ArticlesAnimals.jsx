@@ -38,7 +38,7 @@ function Articles({ data }) {
         </LeftPanel>
 
         <Body>
-          <ArticleAddButton text="Предложить свою статью" link="" />
+          <ArticleAddButton text="Предложить свою статью" link="/article-suggestion" />
           <Animals Index={Index} data={data} />
         </Body>
       </div>

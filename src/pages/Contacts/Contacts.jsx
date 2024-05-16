@@ -2,19 +2,20 @@ import "../../App.css";
 import "./Contacts.css";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 // import TextInput from "../../components/ArticleAddField/ArticleAddField";
-
-import FeedBack from "../../components/FeedBack/FeedBack";
+import FeedBackContacts from "../../components/FeedBackContacts/FeedBackContacts";
 
 function Contacts() {
   return (
     <div className="page-contacts">
+
       <Breadcrumbs />
-      <div className="rectangle-contacts">
-        <h5 className="title-contacts"> Контакты </h5>
+
+      <div style={{display: 'flex', background: '#DEF0F8'}}>
+        <h5 style={{fontSize: '36px', fontWeight: '500', textAlign: 'center', width: '100%'}}>Контакты</h5>
       </div>
 
       <div className="contacts-container">
-        <p style={{ fontSize: "20px" }}>
+        <p>
           {" "}
           Если у вас возникли вопросы или вы хотите узнать больше о наших
           услугах, мы всегда рады помочь. Вы можете связаться с нами <br /> по
@@ -28,13 +29,13 @@ function Contacts() {
           <br />
           <br /> Наша цель - Ваше удовлетворение и успешная коммуникация.
         </p>
+      </div>
 
-         <br />
+      <div className="rectangle-feedback">
+          <p>Ниже вы можете связаться с нами</p>
+          <h2 style={{textAlign: 'center'}}>Обратная связь</h2>
 
-        {/* <input type="text" /> */}
-        {/* <TextInput /> */}
-
-        <FeedBack/>
+          <FeedBackContacts/>
       </div>
     </div>
   );

@@ -4,26 +4,6 @@
     margin-top: 60px; 
 } */
 
-.rectangle-title {
-    width: 1440px;
-    width: 100%;
-    height: 199px;
-        top: 158px;
-        background: #DEF0F8;
-        display: flex;
-        
-}
-
-.text-title{
-    font-size: 36px;
-    font-weight: 500;
-    line-height: 43.57px;
-    text-align: center;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-
 .phones-img{
     width: 100%;
     text-align: center;

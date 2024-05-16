@@ -15,23 +15,8 @@
     /* background-color: #f0f0f0; */
 }
 
-.rectangle-contacts {
-    width: 1440px;
-    width: 100%;
-    height: 199px;
-    background: #DEF0F8;
-    display: flex;
-
-}
-
-.title-contacts {
-    font-size: 36px;
-    /* font-weight: 500; */
-    line-height: 43.57px;
-    text-align: center;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+.about-us-container p {
+    font-Size: 20px;
 }
 
 .about-us-body {

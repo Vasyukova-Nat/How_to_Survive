@@ -7,6 +7,7 @@ import CallHelp from "./pages/CallHelp/CallHelp.jsx";
 import AboutUs from "./pages/AboutUs/AboutUs.jsx";
 import Contacts from "./pages/Contacts/Contacts.jsx";
 import Error404 from "./pages/Error404/Error404.jsx";
+import ArticleSuggestion from "./pages/ArticleSuggestion/ArticleSuggestion.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/about-us" element={<AboutUs />} />
       <Route path="/contacts" element={<Contacts />} />
       <Route path="/*" element={<Error404 />} />
+      <Route path="/article-suggestion" element={<ArticleSuggestion/>} />
     </Routes>
   );
 }
