@@ -1,13 +1,5 @@
-.home-page {
-    display: block;
-    /* padding: 30px; */
-    width: 100%;
-}
-
 .preview {
-    /* background-color: lightblue; */
-    /* background-color: #E5EDEF; */
-    background: #F7F8F9;
+    background: #F7F8F9; /* lightblue; */ /* #E5EDEF; */
     height: 511px;
     width: 100%;
     /* justify-content: center; */
@@ -29,22 +21,24 @@
 }
 
 .left-block-title {
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 740px;
     text-Align: center;
     align-items: center;
+    justify-content: center;
     font-size: 32px;
-    
+}
+.left-block-title p {
+    text-Align: center;
 }
 
 .right-block-title {
-    flex: 2;
     /* width: 505.97px; */
     /* height: 505px; */
 }
-
 /* .right-block-title a {
-    margin-top: 60px;
-} */
+    margin-top: 60px; } */
 
 
 .Block1 {
@@ -142,5 +136,6 @@
 
 .Block5-carousel {
     text-align: center;
+    margin-bottom: 50px;
 }
 

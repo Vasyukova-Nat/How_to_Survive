@@ -30,7 +30,9 @@ body {
   display: flex;
   flex-direction: column;
 
-  /* min-width: 320px; */
+  /* min-width: 1000px; */
+  /* это размер экрана, но не приложения */
+  
   /* min-height: 100vh; */
   /* height: 100vh; */
   /* ВОТ ОНО! РАСТЯГИВАНИЕ СТРАНИЦЫ ПО ВСЕМУ ЭКРАНУ! */

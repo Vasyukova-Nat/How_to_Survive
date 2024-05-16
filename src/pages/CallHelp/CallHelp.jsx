@@ -4,7 +4,8 @@ import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 
 function CallHelp() {
   return (
-    <div className="app">
+    <div style={{display: 'block', width: '100%'}}>
+
       <Breadcrumbs />
       
       <div style={{display: 'flex', background: '#DEF0F8'}}>
@@ -19,16 +20,12 @@ function CallHelp() {
         любым ситуациям и знайте, что помощь всегда на расстоянии звонка.{" "}
       </p>
 
-      <div className="phones-img">
+      <div style={{width: '100%', textAlign: 'center'}}>
         <img src="/phones.png" alt="F" style={{ height: "500px" }} />
       </div>
 
-      <h4>Важные правила</h4>
-
-      <ul
-        className="list"
-        style={{ listStyleType: "disc", paddingLeft: "20px" }}
-      >
+      <h4 style={{paddingLeft: "40px"}}>Важные правила</h4>
+      <ul style={{listStyleType: "disc", paddingLeft: "40px" }}>
         <li>Не звонить в спецслужбы без крайней необходимости.</li>
         <li>
           Говорить спокойно и четко, сообщая все детали и обстоятельства
@@ -52,9 +49,10 @@ function CallHelp() {
         </li>
         <li>
           Соблюдать конфиденциальность и не разглашать информацию, полученную от
-          спецслужб, <br /> третьим лицам.{" "}
+          спецслужб, <br /> третьим лицам.
         </li>
       </ul>
+
     </div>
   );
 }

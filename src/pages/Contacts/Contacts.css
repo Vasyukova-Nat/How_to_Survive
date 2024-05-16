@@ -3,7 +3,10 @@
 }
 
 .contacts-container {
-    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .contacts-container p {
     font-Size: 20px;
