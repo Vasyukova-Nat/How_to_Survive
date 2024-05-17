@@ -1,6 +1,6 @@
 .half_body {
     margin-top: 40px;
-    width: 800px;
+    width: 100%;
     place-items: center;
     display: flex;
     flex-direction: column;

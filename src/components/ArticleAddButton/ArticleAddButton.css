@@ -1,0 +1,27 @@
+.art_add_btn {
+    padding: 10px 50px;
+    text-align: center;
+    display: flex;
+    /* gap: 8px; */
+    font-size: 20px;
+    /* font-style: normal; */
+    font-weight: 500;
+    line-height: normal;
+    width: 250px;
+    margin-left: 600px;
+    border-radius: 4px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 0.25s;
+    border: none;
+    color: white;
+    background: #89C4DB;
+}
+
+.art_add_btn:hover {
+    background: #abe3f9;
+}
+
+.art_add_btn:active {
+    transform: scale(1.2);
+}

@@ -10,7 +10,6 @@ function Animals({ Index, data }) {
       body: (
         <div>
           <ArticleText text={data[Index].arttext} />
-          <ArticleImg img={data[Index].img} />
         </div>
       ),
       test: <Test questions={data[Index].questions} />,
@@ -20,7 +19,6 @@ function Animals({ Index, data }) {
       body: (
         <div>
           <ArticleText text={data[Index].arttext} />
-          <ArticleImg img={data[Index].img} />
         </div>
       ),
       test: <Test questions={data[Index].questions} />,
@@ -30,7 +28,6 @@ function Animals({ Index, data }) {
       body: (
         <div>
           <ArticleText text={data[Index].arttext} />
-          <ArticleImg img={data[Index].img} />
         </div>
       ),
       test: <Test questions={data[Index].questions} />,
@@ -40,7 +37,6 @@ function Animals({ Index, data }) {
       body: (
         <div>
           <ArticleText text={data[Index].arttext} />
-          <ArticleImg img={data[Index].img} />
         </div>
       ),
       test: <Test questions={data[Index].questions} />,

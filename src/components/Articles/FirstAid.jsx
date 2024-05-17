@@ -10,7 +10,16 @@ function FirstAid({ Index, data }) {
       body: (
         <div>
           <ArticleText text={data[Index].arttext} />
+        </div>
+      ),
+      test: <Test questions={data[Index].questions} />,
+    },
+    {
+      title: <ArticleTitle title={data[Index].arttitle} />,
+      body: (
+        <div>
           <ArticleImg img={data[Index].img} />
+          <ArticleText text={data[Index].arttext} />
         </div>
       ),
       test: <Test questions={data[Index].questions} />,
@@ -20,7 +29,6 @@ function FirstAid({ Index, data }) {
       body: (
         <div>
           <ArticleText text={data[Index].arttext} />
-          <ArticleImg img={data[Index].img} />
         </div>
       ),
       test: <Test questions={data[Index].questions} />,
@@ -30,7 +38,6 @@ function FirstAid({ Index, data }) {
       body: (
         <div>
           <ArticleText text={data[Index].arttext} />
-          <ArticleImg img={data[Index].img} />
         </div>
       ),
       test: <Test questions={data[Index].questions} />,
@@ -40,17 +47,6 @@ function FirstAid({ Index, data }) {
       body: (
         <div>
           <ArticleText text={data[Index].arttext} />
-          <ArticleImg img={data[Index].img} />
-        </div>
-      ),
-      test: <Test questions={data[Index].questions} />,
-    },
-    {
-      title: <ArticleTitle title={data[Index].arttitle} />,
-      body: (
-        <div>
-          <ArticleText text={data[Index].arttext} />
-          <ArticleImg img={data[Index].img} />
         </div>
       ),
       test: <Test questions={data[Index].questions} />,
