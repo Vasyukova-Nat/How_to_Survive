@@ -7,9 +7,8 @@ function Search({ ...props }) {
         {...props}
         type="text"
         placeholder="Поиск статьи"
-        className="search_input"
       />
-      <img src="/search.svg" alt="F" />
+      <img src="/search.svg" alt="F" style={{marginRight: '8px'}}/>
     </div>
   );
 }

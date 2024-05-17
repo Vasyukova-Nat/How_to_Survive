@@ -22,7 +22,7 @@ function Home() {
         </div>
       </div>
 
-      <h3 style={{ textAlign: "center", marginTop: "50px", fontSize: "24px" }}>Вы узнаете</h3>
+      <h3 style={{ textAlign: "center", marginTop: "50px", fontSize: "24px", fontWeight: "400"}}>Вы узнаете</h3>
       
       <p style={{ textAlign: "center", fontSize: "20px" }}>Много важной информации. Например:</p>
 
@@ -32,17 +32,17 @@ function Home() {
         </div>
 
         <div className="right-block1">
-          <h3> Как позвать на помощь? </h3>
+          <text style={{fontSize: '24px'}}>Как позвать на помощь?</text>
           <p> Очень важно сосредоточиться и позвонить <br /> по нужным телефонам </p>
         </div>
       </div>
 
       <div className="Block2">
         <div className="left-block2">
-          <h3> Как оказать первую помощь? </h3>
+          <text style={{fontSize: '24px'}}>Как оказать первую помощь?</text>
           <p>
-            Если вы оказались в ситуации, когда рядом с вами <br /> находится
-            пострадавший человек, очень важно точно знать, что делать.
+            Если Вы оказались в ситуации, когда рядом с Вами <br/> находится
+            пострадавший человек, важно точно <br/> знать, что делать.
           </p>
         </div>
 
@@ -57,7 +57,7 @@ function Home() {
         </div>
 
         <div className="right-block3">
-          <h3> Что делать при встрече с опасными животными? </h3>
+          <text style={{fontSize: '24px'}}> Что делать при встрече с опасными животными? </text>
           <p> Очень важно аааааааааа <br /> аааааааааааааааа</p>
         </div>
       </div>
@@ -75,21 +75,21 @@ function Home() {
       <br />
 
       <div className="Block5-carousel">
-        <h3 style={{ fontSize: "24px", fontWeight: "400" }}>Приложение</h3>
+        <h3 style={{ fontSize: "24px", fontWeight: "400"}}>Приложение</h3>
         <p>
           Наше приложение было создано с целью помочь людям и мы <br /> очень
           надеемся, что Вам понравится его использовать!
         </p>
 
-        <Carousel />
+        <Carousel/>
         <br />
 
-        <p> Приложение имеет следующий функционал. <br /></p>
+        <p> Приложение имеет следующий функционал. </p> <br/>
 
-        <br />
         <Button
           text="Скачать"
-          link="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"/>
+          link="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+        />
       </div>
       
     </div>

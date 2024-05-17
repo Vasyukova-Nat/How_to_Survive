@@ -9,6 +9,7 @@
 }
 .about-us-container p {
     font-Size: 20px;
+    text-align: justify; /* РОВНЕНИЕ текста по правому и левому краям одновременно */
 }
 
 .about-us-body {

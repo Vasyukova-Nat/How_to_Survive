@@ -1,7 +1,6 @@
 .button {
     border-radius: 4px;
-    /* padding: 8px 30px; */
-    padding: 20px;
+    padding-inline: 20px; /* ОТСТУПЫ слева и справа 20px */
     font-family: inherit;
     cursor: pointer;
     transition: 0.25s;
@@ -12,13 +11,10 @@
 
     /* text-decoration: none; */
     color: white;
-    width: 300px;
-    height: 69px;
+    min-width: 300px;
+    min-height: 69px;
     background: #89C4DB;
     text-align: center;
-
-    /* text-align: start; */
-    /* display: block; */
 }
 
 .button:hover {
