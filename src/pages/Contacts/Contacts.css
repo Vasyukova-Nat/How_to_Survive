@@ -13,14 +13,20 @@
 }
 
 .rectangle-feedback {
+    display: flex;
+    flex-direction: column;
     width: 1440px;
     width: 100%;
     /* background: #DEF0F8; */
     /* background: #E4F5E3; */
     background: #efffee;
-    display: flex;
-    flex-direction: column;
+    
 }
+/* .rectangle-feedback p {
+    font-Size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+} */
 
 
 

@@ -53,7 +53,7 @@ const FeedBackContacts = () => {
         
         <svg xmlns="http://www.w3.org/2000/svg" className='edit-name' viewBox="0 0 16 16"> <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/> <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/> </svg>
         Ваше имя
-        <input type="text" name="nickname" value={formData.nickname} onChange={handleChange} placeholder="Денис"/>
+        <input type="text" name="nickname" value={formData.nickname} onChange={handleChange} placeholder="Шлёпа"/>
         
         <svg xmlns="http://www.w3.org/2000/svg" className='edit' viewBox="0 0 24 24"> <g> <path fill="none" d="M0 0h24v24H0z"/> <path d="M16.757 3l-2 2H5v14h14V9.243l2-2V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12.757zm3.728-.9L21.9 3.516l-9.192 9.192-1.412.003-.002-1.417L20.485 2.1z"/> </g> </svg>
         Тема обращения
@@ -65,7 +65,7 @@ const FeedBackContacts = () => {
         
         <svg xmlns="http://www.w3.org/2000/svg" className='txt' height="33" fill="currentColor" viewBox="0 0 16 16"> <path d="M2 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5z"/> </svg>
         Текст
-        <textarea name="text" value={formData.text} onChange={handleChange} placeholder="На вашем сайте могла бы быть наша реклама" id='' cols='30' rows='5'/>
+        <textarea name="text" value={formData.text} onChange={handleChange} placeholder="На вашем сайте могла бы быть наша реклама" id='' cols='30' rows='8'/>
         
         <button type="submit" className='bt-send'>Отправить <img className="tick" src="/tick.svg" alt="F" /></button>
       

@@ -29,13 +29,13 @@ function Contacts() {
           Ситникова Дарья Евгеньевна - UI/UX дизайн @manul0w0
         </p>
 
-          <p> Наша цель - Ваше удовлетворение и успешная коммуникация. </p>
+        <p> Наша цель - Ваше удовлетворение и успешная коммуникация. </p>
+        
+        <p>Ниже Вы можете связаться с нами</p>
       </div>
 
       <div className="rectangle-feedback">
-          <p>Ниже вы можете связаться с нами</p>
-          <h2 style={{textAlign: 'center'}}>Обратная связь</h2>
-
+          <h2 style={{textAlign: 'center', fontWeight: '500', fontSize: '36px'}}>Обратная связь</h2>
           <FeedBackContacts/>
       </div>
     </div>

@@ -1,5 +1,5 @@
 .button {
-    border-radius: 4px;
+    border-radius: 8px;
     padding-inline: 20px; /* ОТСТУПЫ слева и справа 20px */
     font-family: inherit;
     cursor: pointer;

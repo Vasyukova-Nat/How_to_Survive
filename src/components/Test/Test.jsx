@@ -34,7 +34,7 @@ const Test = ({ questions }) => {
               </button>
             ))}
           </div>
-          {showAnswer && <p>{questions[currentQuestion].correctAnswer}</p>}
+          {showAnswer && <p>Верный ответ: {questions[currentQuestion].correctAnswer}</p>}
           <button className="bt-next" onClick={handleNextQuestion}>
             Следующий вопрос
           </button>

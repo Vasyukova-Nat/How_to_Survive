@@ -51,7 +51,7 @@ const FeedBackArticle = () => {
 
   return (
     <div>
-      <form onSubmit={handleSubmit} className="form-container">
+      <form onSubmit={handleSubmit} className="form-article-container">
 
         <svg xmlns="http://www.w3.org/2000/svg" className='edit' viewBox="0 0 24 24"> <g> <path fill="none" d="M0 0h24v24H0z"/> <path d="M16.757 3l-2 2H5v14h14V9.243l2-2V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12.757zm3.728-.9L21.9 3.516l-9.192 9.192-1.412.003-.002-1.417L20.485 2.1z"/> </g> </svg>
         Название статьи
@@ -60,7 +60,7 @@ const FeedBackArticle = () => {
         {/* <svg xmlns="http://www.w3.org/2000/svg" className='edit-name' height="20" class="bi bi-person-square" viewBox="0 0 16 16"> <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/> <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z"/> </svg> */}
         <svg xmlns="http://www.w3.org/2000/svg" className='edit-name' viewBox="0 0 16 16"> <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/> <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/> </svg>
         Ваше имя
-        <input type="text" name="nickname" value={formData.nickname} onChange={handleChange} placeholder="Денис"/>
+        <input type="text" name="nickname" value={formData.nickname} onChange={handleChange} placeholder="Шлёпа"/>
         
         <svg xmlns="http://www.w3.org/2000/svg" className='mark' viewBox="0 0 16 16"> <path d="M8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z"/> <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/> </svg>
         Тема
@@ -72,7 +72,7 @@ const FeedBackArticle = () => {
         
         <svg xmlns="http://www.w3.org/2000/svg" className='txt' viewBox="0 0 16 16"> <path d="M2 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm4-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5z"/> </svg>
         Текст
-        <textarea name="text" value={formData.text} onChange={handleChange} placeholder="Коты бывают разные..." id='' cols='30' rows='5'/>
+        <textarea name="text" value={formData.text} onChange={handleChange} placeholder="Коты бывают разные..." id='' cols='30' rows='8'/>
         
         <button type="submit" className='bt-send'>Отправить <img className="tick" src="/tick.svg" alt="F" /></button>
       
