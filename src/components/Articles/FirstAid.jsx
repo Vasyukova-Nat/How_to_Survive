@@ -51,6 +51,16 @@ function FirstAid({ Index, data }) {
       ),
       test: <Test questions={data[Index].questions} />,
     },
+    {
+      title: <ArticleTitle title={data[Index].arttitle} />,
+      body: (
+        <div>
+          <ArticleText text={data[Index].arttext} />
+          <ArticleImg img={data[Index].img} />
+        </div>
+      ),
+      test: <></>,
+    },
   ];
 
   return (

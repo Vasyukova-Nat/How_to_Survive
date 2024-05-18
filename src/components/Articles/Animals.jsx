@@ -49,7 +49,7 @@ function Animals({ Index, data }) {
           <ArticleImg img={data[Index].img} />
         </div>
       ),
-      test: <Test questions={data[Index].questions} />,
+      test: <></>,
     },
   ];
 

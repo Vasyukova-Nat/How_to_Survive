@@ -37,7 +37,7 @@ function Articles({ data }) {
         </LeftPanel>
 
         <Body>
-          <div style={{ marginLeft: "auto" }}>
+          <div style={{ marginLeft: "45%" }}>
             <Button text="Предложить свою статью" link="/article-suggestion" />
           </div>
           <Animals Index={Index} data={data} />
