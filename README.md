@@ -16,7 +16,17 @@
 ***
 ## Контакты
 
-[Наша группа вк](http://webdesign.ru.net)
+[Наша группа вк](https://vk.com/club226042324)
+
+Телеграмм разработчиков:
+
+` Болотов Илья Дмитриевич - Android @Paragven `
+
+` Васюкова Наталья Павловна - Fullstack @nata_lotal `
+
+`Морозова Ольга Андреевна - Fullstack @tvar_iz_ada`
+
+`Ситникова Дарья Евгеньевна - UI/UX дизайн @manul0w0`
 
 -----------------------------------
 
@@ -32,4 +42,7 @@
     npm run dev
 
 -----------------------------------
+## Документация
+
+GitBook: <https://app.gitbook.com/invite/uUld5RszuvsMD4V1774S/e2lVNNgg64ycm3JttDyM>
 
