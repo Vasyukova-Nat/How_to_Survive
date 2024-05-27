@@ -168,8 +168,8 @@ const Data = () => {
       arttitle: "Новые статьи будут совсем скоро",
       arttext: [
         "Предлагайте свои статьи в разделе Предложить статью, нажав на кнопку или перейдя по ссылке внизу.",
+        "/peeking_cat.png",
       ],
-      img: ["/peeking_cat.png"],
     },
   ];
   return <Articles data={data} />;
