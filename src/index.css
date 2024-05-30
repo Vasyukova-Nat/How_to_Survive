@@ -27,15 +27,16 @@ a:hover {
 body {
   margin: 0px;
   place-items: center;
+  place-items: center;
 
   display: flex;
   flex-direction: column;
 
-  /* min-width: 1000px; */
+  min-width: 1100px;
   /* это размер экрана, но не приложения */
   
-  /* min-height: 100vh; */
-  /* height: 100vh; */
+  min-height: 100vh;
+  height: 100vh;
   /* ВОТ ОНО! РАСТЯГИВАНИЕ СТРАНИЦЫ ПО ВСЕМУ ЭКРАНУ! */
 }
 

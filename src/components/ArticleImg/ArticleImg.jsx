@@ -3,7 +3,7 @@ import "./ArticleImg.css";
 function ArticleImg({ img }) {
   return (
     <div className="article_img">
-      <img src={img} alt="F" />
+      <img className="img" src={img} alt="F" />
     </div>
   );
 }

@@ -38,8 +38,6 @@ const Header = () => {
           <a href="/animals">При встрече с животными</a>
         </div>
       </div>
-
-      
     </header>
   );
 };
