@@ -1,0 +1,30 @@
+.container {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(221, 255, 0);
+    animation: circleAnimation 1s linear forwards;
+}
+
+@keyframes circleAnimation {
+    from {
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(20);
+        opacity: 0;
+    }
+}

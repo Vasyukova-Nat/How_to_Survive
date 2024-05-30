@@ -1,0 +1,9 @@
+.error_text {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 18px;
+	margin-left: 20%;
+	margin-right: 20%;
+	display: flex;
+	justify-content: center;
+}

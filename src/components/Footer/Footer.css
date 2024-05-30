@@ -1,0 +1,42 @@
+.footer {
+    /* background: #f2f2f2; */
+    /* margin-top: 10px; */
+    background-color: #E5EDEF;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    /* padding-left: 15px; */
+    text-align: center;
+    /* Выравнивание текста по центру */
+    /* position: fixed; */
+    /* left: 0; */
+    /* bottom: 0; */
+    /* padding: 10px 0; */
+}
+
+
+.footer-links {
+    /* display: flex; */
+    margin-top: 25px;
+    display: inline-flex;
+    font-size: 18px;
+    /* Расположение ссылок в ряд  */
+
+    /* max-width: 1200px; */
+
+    /* margin: 0 100px; */
+    /* Расстояние между ссылками */
+}
+
+
+.footer-links a {
+    margin-right: 80px;
+    /* color: #333; */
+    color: #555;
+}
+
+
+.footer-links a:hover {
+    color: #727DEB;
+}

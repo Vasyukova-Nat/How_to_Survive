@@ -1,0 +1,24 @@
+.about-us-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    /* background-color: #f0f0f0; */
+}
+.about-us-container p {
+    font-Size: 20px;
+    text-align: justify; /* РОВНЕНИЕ текста по правому и левому краям одновременно */
+}
+
+.about-us-body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    /* background-color: #d2fbff; */
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}

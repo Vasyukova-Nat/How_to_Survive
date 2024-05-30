@@ -1,0 +1,26 @@
+.button {
+    border-radius: 8px;
+    padding-inline: 20px; /* ОТСТУПЫ слева и справа 20px */
+    font-family: inherit;
+    cursor: pointer;
+    transition: 0.25s;
+    font-size: 24px;
+    /* font-weight: 500; */
+    border: none;
+    /* уберем бортик */
+
+    /* text-decoration: none; */
+    color: white;
+    min-width: 300px;
+    min-height: 69px;
+    background: #89C4DB;
+    text-align: center;
+}
+
+.button:hover {
+    background: #abe3f9;
+}
+
+.button:active {
+    transform: scale(1.2);
+}

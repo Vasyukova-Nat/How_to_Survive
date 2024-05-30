@@ -1,0 +1,26 @@
+.search {
+	display: flex;
+	border-color: #C2C2C2;
+	border-radius: 15px;
+	border-width: 1px;
+	border-style: solid;  
+	cursor: text;
+	width: 240px;
+	/* margin-inline: 10%;   */
+	/* справа и слева */
+	margin-right: 10%;
+	margin-left: 10%;
+}
+.search input {
+	flex: 1;
+	margin-left: 8px;
+	margin-bottom: 0px;
+	font-size: 16px;
+	/* background-color: rgb(188, 188, 255); */
+	background-color: transparent;
+
+	outline: none; /* -подсвечивание бортика при вводе */
+	border: none;	
+	border-radius: 15px;
+	/* ПРИМЕЧАНИЕ: хоть бортик у нас и убран, но его контуры продолжают работать со сглаживанием */
+}

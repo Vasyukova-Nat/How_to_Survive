@@ -1,0 +1,15 @@
+.scroll-progress {
+    position: fixed;
+    margin-left: 0px;
+    top: 0px;
+    left: 0;
+    height: 5px;
+    /* background-color: #ff5e00; */
+    background: #455D7C;
+    z-index: 9999; /* Чтобы полоса прокрутки была поверх других элементов */
+    transition: width 0.3s;
+
+    /* width: 100vw; */
+        /* ширина по всей ширине экрана */
+        
+}

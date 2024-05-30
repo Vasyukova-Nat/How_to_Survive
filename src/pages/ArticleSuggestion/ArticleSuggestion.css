@@ -1,0 +1,14 @@
+.page-suggestion {
+    display: block;
+}
+
+.suggestion-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-inline: 50px;
+}
+.suggestion-container p {
+    text-align: center;
+    font-Size: 20px;
+    margin-bottom: 40px;
+}
