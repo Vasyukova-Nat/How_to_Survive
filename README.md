@@ -27,70 +27,77 @@
 ***
 ## Структура файлов
 
-How-to-survive-app/
+How-to-survive-app/  
+│  
+├── node_modules/                # Модули Node.js (пакеты JavaScript)  
+│  
+├── public/                      # Статические файлы (изображения)  
+│  
+├── src/                         # Исходный код приложения  
+│   ├── components/              # React компоненты  
+│   │   ├── ArticleAddField/                 # Компонент добавления статьи  
+│   │   │      ├── ArticleAddField.css       # Стили компонента  
+│   │   │      └── ArticleAddField.jsx       # Код (jsx) комопнента  
+│   │   ├── Breadcrumbs/                     # Компонент "хлебные крошки"  
+│   │   │      ├── Breadcrumbs.css  
+│   │   │      └── Breadcrumbs.jsx  
+│   │   ├── Header/                          # Компонент хэдера  
+│   │   │      ├── Header.css  
+│   │   │      └── Header.jsx  
+│   │   ├── ScrollProgressBar/               # Компонент отслеживания дальности прокрутки страницы  
+│   │   │      ├── ScrollProgressBar.css  
+│   │   │      └── ScrollProgressBar.jsx  
+│   │   ├── Search/                          # Компонент поисковика в статьях  
+│   │   │      ├── Search.css  
+│   │   │      └── Search.jsx  
+│   │   ├── Footer/                          # Компонент футера  
+│   │   │      ├── Footer.css  
+│   │   │      └── Footer.jsx  
+│   │   └── Test/                            # Компонент теста с вариантами ответа  
+│   │          ├── Test.css  
+│   │          └── Test.jsx  
+│   │  
+│   │  
+│   ├── layouts/                             # Слои части сайта со статьями  
+│   │   ├── Body/                            # Компонент основной страницы статей (справа)  
+│   │   │      ├── Body.css  
+│   │   │      └── Body.jsx  
+│   │   └── LeftPanel/                       # Компонент меню статей (слева)  
+│   │          ├── LeftPanel.css  
+│   │          └── LeftPanel.jsx  
+│   │  
+│   │  
+│   ├── pages/                               # Страницы сайта  
+│   │   ├── AboutUs/                         # Компонент страницы О Нас  
+│   │   │      ├── AboutUs.css  
+│   │   │      └── AboutUs.jsx  
+│   │   │── ArticlesAnimals/                 # Компонент страницы статей о животных  
+│   │   │      ├── ArticlesAnimals.css  
+│   │   │      └── ArticlesAnimals.jsx  
+│   │   └── ArticlesFirstAid/                # Компонент страницы статей о первой помощи  
+│   │          ├── ArticlesFirstAid.css  
+│   │          └── ArticlesFirstAid.jsx  
+│   │  
+│   │  
+│   ├── App.css                  # Главный компонент приложения, стили  
+│   ├── App.jsx                  # Главный компонент приложения  
+│   ├── index.css                # Стили  
+│   └── main.jsx                 # Роутинг  
 │
-├── node_modules/                # Модули Node.js (пакеты JavaScript)
-│
-├── public/                      # Статические файлы (изображения)
-│
-├── src/                         # Исходный код приложения
-│   ├── components/              # React компоненты
-│   │   ├── ArticleAddField/                 # Компонент добавления статьи 
-│   │   │      ├── ArticleAddField.css       # Стили компонента
-│   │   │      └── ArticleAddField.jsx       # Код (jsx) комопнента 
-│   │   ├── Breadcrumbs/                     # Компонент "хлебные крошки"
-│   │   │      ├── Breadcrumbs.css
-│   │   │      └── Breadcrumbs.jsx
-│   │   ├── Header/                          # Компонент хэдера
-│   │   │      ├── Header.css
-│   │   │      └── Header.jsx
-│   │   ├── ScrollProgressBar/               # Компонент отслеживания дальности прокрутки страницы
-│   │   │      ├── ScrollProgressBar.css
-│   │   │      └── ScrollProgressBar.jsx
-│   │   ├── Search/                          # Компонент поисковика в статьях
-│   │   │      ├── Search.css
-│   │   │      └── Search.jsx
-│   │   ├── Footer/                          # Компонент футера
-│   │   │      ├── Footer.css
-│   │   │      └── Footer.jsx
-│   │   └── Test/                            # Компонент теста с вариантами ответа
-│   │          ├── Test.css
-│   │          └── Breadcrumbs.jsx
-│   │
-│   │
-│   ├── layouts/                             # Слои части сайта со статьями
-│   │   ├── Body/                            # Компонент основной страницы статей (справа)
-│   │   │      ├── Body.css       
-│   │   │      └── Body.jsx
-│   │   └── LeftPanel/                       # Компонент меню статей (слева)
-│   │          ├── LeftPanel.css
-│   │          └── LeftPanel.jsx
-│   │
-│   │
-│   ├── pages/                               # Страницы сайта
-│   │   ├── AboutUs/                         # Компонент страницы О Нас
-│   │   │      ├── AboutUs.css       
-│   │   │      └── AboutUs.jsx
-│   │   │── ArticlesAnimals/                 # Компонент страницы статей о животных
-│   │   │      ├── ArticlesAnimals.css
-│   │   │      └── ArticlesAnimals.jsx
-│   │   └── ArticlesFirstAid/                # Компонент страницы статей о первой помощи
-│   │          ├── ArticlesFirstAid.css
-│   │          └── ArticlesFirstAid.jsx
-│   │
-│   │
-│   ├── App.css                  # Главный компонент приложения, стили
-│   ├── App.jsx                  # Главный компонент приложения
-│   ├── index.css                # Стили
-│   └── main.jsx                 # Роутинг
-│
-├── .eslintrc.cjs                # Конфигурация ESLint
-├── .gitignore                   # Игнорирование ненужных для проецирования файлов
-├── package-lock.json            # Отслеживании точных версий установленных пакетов (Node.js)
-├── package.json                 # Файл зависимостей и скриптов (центральный репозиторий настроек для используемых     │   
-│                                инструментов. Также сюда npm и yarn записывают сведения об именах и версиях           │                                установленных пакетов.)
-├── README.md                    # Файл README (часть документации проекта)
+├── .eslintrc.cjs                # Конфигурация ESLint  
+├── .gitignore                   # Игнорирование ненужных для проецирования файлов  
+├── package-lock.json            # Отслеживании точных версий установленных пакетов (Node.js)  
+├── package.json                 # Файл зависимостей и скриптов (центральный репозиторий настроек для  
+│                                используемых      
+│                                инструментов. Также сюда npm и yarn записывают сведения об именах и версиях           │                                установленных пакетов.)  
+├── README.md                    # Файл README (часть документации проекта)  
 └── vite.config.js               # Конфигурация Vite
+
+***
+## Модули
+- App.jsx: Корневой компонент, который проихводит роутинг всех остальных компонентов и управляет основным состоянием приложения.
+- App.css, index.css - стили CSS для всего приложения
+- main.jsx: Точка входа React, где приложение монтируется в DOM (import ReactDOM).
 
 ***
 ## Контакты
@@ -109,20 +116,25 @@ How-to-survive-app/
 
 -----------------------------------
 
-## Установка
-
-Чтобы открыть сайт, необходимо скачать репозиторий с гитхаба либо сделать git clone, для этого нужно воспользоваться терминалом:
-
+## Установка и запуск
+1. Чтобы открыть сайт, необходимо скачать репозиторий с гитхаба либо сделать git clone, для этого нужно воспользоваться терминалом:
     cd "C:\папка"
     git clone https://github.com/Vasyukova-Nat/How_to_Survive.git -b dev_react
-    npm i
-    npm i react-router-dom
-    npm i axios
+2. Установка зависимостей:
+    npm install
+    (Возможно потребуется npm i axios  и  npm i react-router-dom)
+3. Запуск приложения при помощи Vite:
     npm run dev
+-----------------------------------
+## Тестирование и линтинг
+- Тестирование: не применялось. Проводились ручные тесты.
+- Линтинг: ESLint настроен для проверки стиля кода. Запустите через терминад npm run lint для проверки кода. Также использовались Prettier и ENV (о них выше).
+-----------------------------------
+## Взаимодействие с backend
+Для взаимодействия с backend используется библиотека axios для отправки POST запросов на указанный URL. Для отправки сообщения в Telegram используется метод sendMessage с указанием chat_id и текста сообщения. Данные для запроса берутся из формы, заполненной пользователем.
 
 -----------------------------------
 ## Артефакты проекта
-
 Документация: <https://app.gitbook.com/invite/uUld5RszuvsMD4V1774S/e2lVNNgg64ycm3JttDyM>
 
 Глоссарий + Дорожные карты разработчиков: <https://docs.google.com/document/d/1h1pNAFpnxB3FFjj7phTLQ5sAPm8-Q44mwNFnJkhgF6g/edit?usp=sharing>
