@@ -6,7 +6,7 @@
 
     /* минимальная и максимальная ширина контейнера == 1440px */
   min-width: 1100px;
-  max-width: 2000px;
+  max-width: 1600px;
 
   margin: 0 auto; /* центрируем контейнер по горизонтали */
   background-color: #FAFDFE;
