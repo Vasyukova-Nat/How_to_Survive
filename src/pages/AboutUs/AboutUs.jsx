@@ -2,8 +2,8 @@ import "../../App.css";
 import "./AboutUs.css";
 import Breadcrumbs from "../../components/Breadcrumbs/Breadcrumbs";
 import CardsAboutUs from "../../components/CardsAboutUs/CardsAboutUs";
-import Stars from "../../components/Stars/Stars"; 
-import Stars2 from "../../components/Stars2/Stars2"; 
+// import Stars from "../../components/Stars/Stars"; 
+// import Stars2 from "../../components/Stars2/Stars2"; 
 
 function AboutUs() {
   return (
@@ -15,8 +15,9 @@ function AboutUs() {
         <h5 style={{fontSize: '36px', fontWeight: '500', textAlign: 'center', width: '100%'}}>О нас</h5>
       </div>
 
-      <Stars/>
-      <Stars2/>
+      {/* <Stars/> */}
+      {/* <Stars2/> */}
+      {/* мой */}
 
       <div className="about-us-container">
         <p> Мы - команда студентов первого курса бакалавриата <u style={{color: '#8b00d5'}}>МТУСИ</u> на направлении

@@ -2,38 +2,24 @@ import { useState } from 'react';
 import './Stars2.css';
 
 
-const Container = () => {
-  const [fireworks, setFireworks] = useState([]);
+const CircleEffect = () => {
+  const [showCircle, setShowCircle] = useState(false);
 
-  const handleFireworks = (e) => {
-    const x = e.clientX;
-    const y = e.clientY;
-    
-    const newFireworks = [];
-    
-    for (let i = 0; i < 30; i++) {
-      const style = {
-        left: x + 'px',
-        top: y + 'px',
-        animationDelay: Math.random() + 's',
-      };
-      
-      newFireworks.push(<div key={i} className="firework" style={style}></div>);
+  const handleContainerClick = () => {
+    if (!showCircle) {
+      setShowCircle(true);
+      setTimeout(() => {
+        setShowCircle(false);
+      }, 1000); // время анимации в миллисекундах
     }
-    
-    setFireworks(newFireworks);
-    
-    setTimeout(() => {
-      setFireworks([]);
-    }, 2000);
   };
 
   return (
-    <div className="container" onMouseDown={handleFireworks}>
-      {fireworks}
-      <p>Click to see fireworks!</p>
+    <div className="container" onClick={handleContainerClick}>
+      {showCircle && <div className="circle"></div>}
+      <p>Контейнер</p>
     </div>
   );
 };
 
-export default Container;
+export default CircleEffect;

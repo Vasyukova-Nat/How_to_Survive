@@ -1,32 +1,30 @@
 .container {
     position: relative;
-    width: 300px;
-    height: 200px;
-    background-color: #f0f0f0;
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    cursor: pointer;
 }
 
-.firework {
+.circle {
     position: absolute;
-    width: 5px;
-    height: 5px;
-    background-color: #ff0000;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
-    animation: fireworks 2s linear;
+    background-color: rgb(221, 255, 0);
+    animation: circleAnimation 1s linear forwards;
 }
 
-@keyframes fireworks { 
-    0% {
-        transform: translate(0, 0);
+@keyframes circleAnimation {
+    from {
+        transform: scale(0);
         opacity: 1;
     }
 
-    100% {
-        transform: translate(var(--x), var(--y));
+    to {
+        transform: scale(20);
         opacity: 0;
     }
 }

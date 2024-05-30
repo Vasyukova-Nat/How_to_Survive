@@ -1,4 +1,7 @@
 import "./CardsAboutUs.css";
+import { useState } from 'react';
+
+  
 
 const employees = [
   {
@@ -27,14 +30,35 @@ const employees = [
   }
 ];
 
+
 const AboutUs = () => {
+
+  // a
+  const [showCircle, setShowCircle] = useState(false);
+
+  const handleContainerClick = () => {
+    if (!showCircle) {
+      setShowCircle(true);
+      setTimeout(() => {
+        setShowCircle(false);
+      }, 1000); // время анимации в миллисекундах
+    }
+  };
+  // a
+
+
   return (
     <div className="about-us">
+      
       {employees.map(employee => (
-        <div key={employee.id} className="employee-card">
+        <div key={employee.id} className="employee-card" onClick={handleContainerClick}>
+          
           <img className='employee-img' src={employee.image} alt="employee image" />
+          
           <div className="employee-info">
+            
             <h3>{employee.name}</h3>
+            {showCircle && <div className="circle"></div>}
             <p>{employee.position}</p>
           </div>
         </div>

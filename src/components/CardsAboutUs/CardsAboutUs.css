@@ -2,8 +2,15 @@
     display: block;
     justify-content: space-around;
     align-items: center;
-    /* text-align: center; */
     width: 950px;
+
+
+    /* ниже стили для анимации */
+    position: relative;
+    /* display: flex; */
+    justify-content: center;
+
+
 }
 
 .employee-card {
@@ -33,4 +40,38 @@
 .employee-img {
     height: 300px;
     border-radius: 10px;
+}
+
+
+
+
+.circle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(221, 255, 0);
+    animation: circleAnimation 1s linear forwards;
+
+
+    /* position: fixed; */
+    /* Div будет "прилипать" к экрану */
+    /* z-index: 9999; */
+    /* Максимальное значение z-индекса */
+    /* margin-top: 500; */
+    /* Опционально: разместить div в верхней части окна браузера */
+    /* left: 600; */
+    /* Опционально: разместить div в левой части окна браузера */
+}
+
+@keyframes circleAnimation {
+    from {
+        transform: scale(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(20);
+        opacity: 0;
+    }
 }

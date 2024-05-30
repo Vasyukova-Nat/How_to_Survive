@@ -5,7 +5,7 @@ function pop (e) {
         case 'shadow':
         // case 'line': 
         amount = 60;
-        break; 
+        break;
     }
     if (e.clientX === 0 && e.clientY === 0) {
         const bbox = e.target.getBoundingClientRect();
@@ -20,7 +20,7 @@ function pop (e) {
         }
     }
 }
-
+ 
 function createParticle (x, y, type) {
 
     const particle = document.createElement('particle');

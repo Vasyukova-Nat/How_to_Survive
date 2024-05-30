@@ -40,7 +40,7 @@ const FeedBackArticle = () => {
       });
       setTimeout(() => {
         setMessage('');
-      }, 10000);
+      }, 1000);
     } catch (error) {
       setMessage('Ошибка при отправке данных!');
       setTimeout(() => {
