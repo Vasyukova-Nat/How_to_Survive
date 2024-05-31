@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import './Carousel.css';
 
-const photos = ["/planetm.jpg",'мы1.jpg', 'мы2.jpg', "/image2.jpg", "/image3.jpg"];
+const photos = ["/m1.png",'m2.png', 'm3.png'];
 
 const Carousel = () => {
   const [currentPhoto, setCurrentPhoto] = useState(0);

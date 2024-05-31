@@ -71,11 +71,9 @@ function Home() {
 
         <div className="right-block3">
           <text style={{ fontSize: "24px" }}>
-            {" "}
             Что делать при встрече с опасными животными?{" "}
           </text>
           <p>
-            {" "}
             Очень важно аааааааааа <br /> аааааааааааааааа
           </p>
         </div>
