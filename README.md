@@ -35,6 +35,7 @@
 
 ## Структура файлов
 
+<pre>
 How-to-survive-app/  
 │  
 ├── node_modules/ # Модули Node.js (пакеты JavaScript)  
@@ -101,6 +102,7 @@ How-to-survive-app/
 │ установленных пакетов.)  
 ├── README.md # Файл README (часть документации проекта)  
 └── vite.config.js # Конфигурация Vite
+</pre>
 
 ---
 
